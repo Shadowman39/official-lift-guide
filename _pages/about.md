@@ -1,9 +1,9 @@
 ---
 title: About
-author: Tao He
-date: 2022-02-04
+author: Shadowman39
+date: 2024-02-23
 category: Jekyll
 layout: post
 ---
 
-This is an about page.
+This site is in development for now.
