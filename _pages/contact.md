@@ -1,9 +1,9 @@
 ---
 title: Contact
-author: Tao He
-date: 2022-02-05
+author: Shadowman39
+date: 2024-02-23
 category: Jekyll
 layout: post
 ---
 
-This is an contact page.
+This will be a contact page.
