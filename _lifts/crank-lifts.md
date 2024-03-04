@@ -1,9 +1,8 @@
 ---
-title: Test
+title: Crank Lifts
 author: Shadowman39
-date: 2024-02-23
 category: Jekyll
 layout: post
 ---
 
-This is a test.
+Some text here.
