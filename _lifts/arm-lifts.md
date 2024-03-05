@@ -22,3 +22,5 @@ Some text here.
 
 {% include image-gallery.html folder="/assets/img/arm" %}
 
+{% include lightbox.html src="arm/IMG_1278.JPG" data="group" title="Sample Title" %}
+
