@@ -11,7 +11,7 @@ gitbook_version:  3.2.3
 
 url:              'https://shadowman39.github.io'
 #Comment the baseurl line if loading the site locally
-#baseurl:          '/official-lift-guide'
+baseurl:          '/official-lift-guide'
 rss:              RSS
 
 # bootstrap: use the remote theme for the site itself
