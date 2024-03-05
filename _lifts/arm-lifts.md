@@ -20,3 +20,5 @@ Some text here.
 
 [Link thing](https://raw.githubusercontent.com/Shadowman39/official-lift-guide/main/assets/img/arm/IMG_1278.JPG)
 
+{% include image-gallery.html folder="/assets/img/arm" %}
+
