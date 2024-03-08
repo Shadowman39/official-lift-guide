@@ -7,3 +7,25 @@
  .book .book-body {
     background: #EBEEF5;
 }
+
+/* For the mobile image scrollbox */
+.carousel {
+    height: 74%;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-top: 0.5%;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+.carousel>div {
+    display: inline-block;
+    /* width: 75%; */
+    /* Setting height instead of width removes space between images */
+    height: 74%
+}
+  
+.carousel img {
+    max-width: 100%;
+}
+

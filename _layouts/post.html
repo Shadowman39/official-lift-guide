@@ -13,6 +13,29 @@
         {% if page.next %}
             <link rel="next" href="{{site.baseurl}}{{page.next.url}}" />
         {% endif %}
+
+        <!-- This style is for the mobile and desktop page layouts -->
+        <style> 
+            /* CSS for desktop screens */ 
+            .desktop { 
+              display: block; 
+            } 
+         
+            /* CSS for mobile screens */ 
+            .mobile { 
+              display: none; 
+            } 
+         
+            /* Media query for screens with a maximum width of 600px (mobile screens) */ 
+            @media only screen and (max-width: 1000px) { 
+              .desktop { 
+                display: none; 
+              } 
+              .mobile { 
+                display: block; 
+              } 
+            } 
+        </style>
     </head>
     <body>
         <div class="book">
