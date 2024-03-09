@@ -2,21 +2,35 @@ lifts:
 
   - name: Stair-Arm Lift
     author: Shadowman39
-    category: main
+    type: main
     instructions: https://www.instructables.com/Knex-Stair-Arm-Lift/
     description: This is a lift of arms in a stair pattern.
     images:
-      - - IMG_1275.JPG
+      - - IMG_1280.JPG
         - This is a great image description.
-      - - IMG_1280.JPG
+      - - IMG_0858.JPG
         - This is the second one.
-      - - IMG_1280.JPG
+      - - IMG_1275.JPG
         - This is the 3rd one.
+      - - IMG_1278.JPG
+        - This is the 4th one.
 
   - name: Vertical Jigsaw Lift
     author: Shadowman39
-    category: variant
+    type: variant
     description: This is a type of jigsaw lift.
     images:
-      - - IMG_1280.JPG
-        - This is an epic image description.
+      - - IMG_0858.JPG
+        - A widescreen image.
+      - - IMG_1278.JPG
+        - A normal image.
+
+  - name: Chain Lift
+    author: Shadowman39
+    type: concept
+    description: The original chain lift.
+    images:
+      - - IMG_1275.JPG
+        - A tall image.
+      - - IMG_1278.JPG
+        - A normal image.

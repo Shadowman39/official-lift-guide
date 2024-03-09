@@ -12,7 +12,7 @@
 .carousel {
     height: 74%;
     width: 85%;
-    margin-left: 7.5%;
+    /* margin-left: 7.5%; */
     margin-top: 0.5%;
     overflow: auto;
     white-space: nowrap;
@@ -29,3 +29,6 @@
     max-width: 100%;
 }
 
+.crop {
+    object-fit: cover;
+}
