@@ -3,6 +3,7 @@ lifts:
   - name: Standard Chain Lift
     author: Knex
     featured: Big Ball Factory
+    featured_link:
     category: main
     instructions: 
     description: This is the most familiar lift since it is in most of the original ball machine sets by Knex, such as the Big Ball Factory and Trampoline Tower. It's simple and piece-friendly, but isn't very unique.
@@ -14,7 +15,9 @@ lifts:
 
   - name: Chainsaw Lift
     author: Shadowman39
+    author_link: https://www.instructables.com/member/Shadowman39/
     featured: Cataclysm
+    featured_link: https://www.instructables.com/id/Cataclysm-Knex-Ball-Machine-1/
     category: main
     video: 
     description: These use a chain that goes along a track for guidance, and the holders for the balls are usually smaller. They can be more reliable since the balls can't fall off the chain, and also more versatile with different layouts that can be made.
@@ -26,10 +29,12 @@ lifts:
 
   - name: Chain Path
     author: Shadowman39
+    author_link: https://www.instructables.com/member/Shadowman39/
     featured: Cataclysm
+    featured_link: https://www.instructables.com/id/Cataclysm-Knex-Ball-Machine-1/
     category: standard chain lift
-    video: http://www.youtube.com/watch?v=jKbbWwdqmp0
-    description: This lift doubles as a chain path element at the top, and the ball lands in a basket at the end. The main issue is that the chain stretches out over time due to the long horizontal sections.
+    video: https://youtu.be/jKbbWwdqmp0?si=SljpnDrFpv4mlfRZ&t=82
+    description: This lift doubles as a chain path element at the top, and the ball lands in a basket at the end. [warning] The main issue is that the chain stretches out over time due to the long horizontal sections.
     images:
       - - FBFC4M8G4PBSP9Q.jpg
         - 
@@ -40,7 +45,9 @@ lifts:
 
   - name: Inverted
     author: shadowninja31
+    author_link: https://www.instructables.com/member/shadowninja31/
     featured: Small ball machine
+    featured_link: https://www.instructables.com/id/SBM-Element/
     category: chainsaw lift
     description: The chain is above the track in these lifts, and this allows for different directions such as vertical and 45 degrees.
     images:
@@ -53,6 +60,7 @@ lifts:
 
   - name: Semi-circle
     author: Tornado96
+    author_link: https://www.instructables.com/member/Tornado96/
     category: chainsaw lift
     instructions: https://www.instructables.com/id/Knex-Semi-Circle-Lift/
     description: This chain lift runs along a guide that is a semi-circle, and the balls balance on the chain rather than needing a wide track. It can be made different sizes as seen in the photos.
@@ -64,10 +72,12 @@ lifts:
 
   - name: Alternate
     author: floris2burn
+    author_link: https://www.instructables.com/member/floris2burn/
     featured: Cyclo
+    featured_link: https://www.instructables.com/id/CYCLO/
     category: standard chain lift
     instructions: https://www.instructables.com/id/Cyclo-knex-ball-machine-elements/
-    description: These are alternate designs from the standard. Floris2burn's uses a track to keep the ball in place and the chain can go in different directions, since the gears are placed to allow the ball claw to pass through. The second version uses a slightly different layout and claws.
+    description: These are alternate designs from the standard. Floris2burn's uses a track to keep the ball in place and the chain can go in different directions, since the gears are placed to allow the ball claw to pass through. The [second version](https://www.instructables.com/id/Versatile-Chainsaw-Lift-a-Knex-Ball-Machine-Lift/) uses a slightly different layout and claws.
     images:
       - - FTHRPWVG4UH8T3D.jpg
         - The version used in Cyclo
