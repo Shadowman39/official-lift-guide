@@ -1,21 +1,13 @@
 <!-- Image display, either desktop or mobile layout -->
 <div class="desktop"> 
-    <!-- Content to be displayed on desktop screens --> 
-    <div style="display: inline; text-align: left; float: left; max-width: 533px">
+    <!-- Content to be displayed on desktop screens -->
+    <div class="carousel"> 
+        {% for image in entry.images %}
 
-        {% assign file = folder | append: "/" | append: entry.images.first.first %}
-        {% assign desc = entry.images.first.last %}
-        {% include lightbox.html src=file data="image-1" height="400" title=desc %}
-        
-        <div style="display: inline; text-align: right; float: right; padding-right: 10px; padding-left: 10px; margin-right: -200px; width: 200px; height: 400px; overflow-y: auto">
-
-            {% for image in entry.images offset:1 %}
-
-                {% assign file = folder | append: "/" | append: image.first %}
-                {% assign desc = image.last %}
-                {% include lightbox.html src=file data="image-1" width="300" title=desc %}
-            {% endfor %}
-        </div>
+            {% assign file = folder | append: "/" | append: image.first %}
+            {% assign desc = image.last %}
+            {% include lightbox.html src=file data="image-d" height="400" title=desc %}
+        {% endfor %}
     </div>
     <br style="clear:both" />
 </div>
@@ -35,6 +27,10 @@
 
 > - Inventor: {{entry.author}}
 
+{%- if entry.featured -%}
+<br>
+> - Featured in {{entry.featured}}
+{% endif %}
 {%- if entry.instructions -%}
 <br>
 > - [Instructions]({{entry.instructions}})
