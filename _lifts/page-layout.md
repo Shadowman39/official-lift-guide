@@ -1,0 +1,25 @@
+{% assign folder = page.data_file | string %}
+<!-- The main group of lifts that show up in the table of contents -->
+{% assign main = site.data[folder].lifts | where: "category", "main" %}
+
+<!-- First loop through main lifts -->
+{% for entry in main %}
+
+---
+
+# {{ entry.name }}
+
+{%- include_relative image-display.md -%}
+
+<!-- Loop through the sub categories -->
+{%- assign subName = entry.name | downcase -%}
+{%- assign sub = site.data.chain.lifts | where: "category", subName -%}
+{% for entry in sub %}
+
+---
+
+**{{ entry.name }}**
+
+{%- include_relative image-display.md -%}
+{% endfor %}
+{% endfor %}

@@ -25,16 +25,11 @@
     </div>
 </div>
 
-> - Inventor: [{{entry.author}}]({{entry.author_link}})
+> - Inventor: {{entry.author}}
 
 {%- if entry.featured -%}
-{%- if entry.featured_link -%}
-<br>
-> - Featured in [{{entry.featured}}]({{entry.featured_link}})
-{%- else -%}
 <br>
 > - Featured in {{entry.featured}}
-{% endif %}
 {% endif %}
 
 {%- if entry.instructions -%}

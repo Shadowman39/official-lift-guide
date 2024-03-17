@@ -3,6 +3,7 @@ title: Car Lifts
 author: Shadowman39
 category: Jekyll
 layout: post
+data_file: car
 ---
 
-Some text here.
+{%- include_relative page-layout.md -%}

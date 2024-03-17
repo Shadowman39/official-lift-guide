@@ -3,6 +3,7 @@ title: Helix Lifts
 author: Shadowman39
 category: Jekyll
 layout: post
+data_file: helix
 ---
 
-Some text here.
+{%- include_relative page-layout.md -%}
