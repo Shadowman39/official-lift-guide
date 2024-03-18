@@ -42,13 +42,27 @@
 > - [Video]({{entry.video}})
 {% endif %}
 
-{% assign desc = entry.description | split: "[warning]" %}
+<!-- Handling the description, with the tips/warnings -->
+{% assign desc = entry.description | split: "-warning-" %}
+{% assign desc2 = entry.description | split: "-tip-" %}
 
-{{desc.first}}
+{% if desc.size == 1 and desc2.size == 1 %}
+{{desc}}
+{% endif %}
+
 {% if desc.size > 1 %}
+{{desc.first}}
 > ##### WARNING
 >
 > {{desc.last}}
 {: .block-warning }
+{% endif %}
+
+{% if desc2.size > 1 %}
+{{desc2.first}}
+> ##### TIP
+>
+> {{desc2.last}}
+{: .block-tip }
 {% endif %}
 

@@ -7,13 +7,13 @@
 
 ---
 
-# {{ entry.name }}
+## {{ entry.name }}
 
 {%- include_relative image-display.md -%}
 
 <!-- Loop through the sub categories -->
 {%- assign subName = entry.name | downcase -%}
-{%- assign sub = site.data.chain.lifts | where: "category", subName -%}
+{%- assign sub = site.data[folder].lifts | where: "category", subName -%}
 {% for entry in sub %}
 
 ---
