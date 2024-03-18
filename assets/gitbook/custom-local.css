@@ -8,10 +8,10 @@
     background: #EBEEF5;
 }
 
-/* For the mobile image scrollbox */
+/* For the horizontal scrollbox */
 .carousel {
     height: 74%;
-    width: 85%;
+    width: 100%;
     /* margin-left: 7.5%; */
     margin-top: 0.5%;
     overflow: auto;

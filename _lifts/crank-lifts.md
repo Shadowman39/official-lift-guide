@@ -3,6 +3,7 @@ title: Crank Lifts
 author: Shadowman39
 category: Jekyll
 layout: post
+data_file: crank
 ---
 
-Some text here.
+{%- include_relative page-layout.md -%}

@@ -1,19 +1,24 @@
 lifts:
 
   - name: Stair-Arm Lift
-    author: Shadowman39
-    type: main
+    author: "[Shadowman39](https://www.instructables.com/member/Shadowman39/)"
+    featured: "[Citadel](https://www.instructables.com/Citadel-Knex-Ball-Machine/)"
+    category: main
     instructions: https://www.instructables.com/Knex-Stair-Arm-Lift/
-    description: This is a lift of arms in a stair pattern.
+    description: This lift is similar to a stair lift, except it uses arms instead of platforms. Since they don't slide on rods, there isn't as much friction, so this stair lift can be made much taller than the original stair lift. It also slants 45° (the old one slants half as much), so it can be made taller in a shorter amount of space. The arms do take up more room though. If it uses an odd number of arms (like the version in Citadel), one of the arms needs a counterweight.
+      
+      <div style="text-align:center;">
+      <iframe width="90%" height="400" src="https://www.youtube.com/embed/QcAT0qIYCyM?si=hXBYhVSF3V_PdqQr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
     images:
       - - IMG_1280.JPG
-        - This is a great image description.
-      - - IMG_0858.JPG
-        - This is the second one.
-      - - IMG_1275.JPG
-        - This is the 3rd one.
+        - The version from the instructions
       - - IMG_1278.JPG
-        - This is the 4th one.
+        - 
+      - - IMG_8181.JPG
+        - The lift featured in Citadel
+      - - FTS1D2MHLIDBZPJ.jpg
+        - A view from Citadel's construction
 
   - name: Vertical Jigsaw Lift
     author: Shadowman39

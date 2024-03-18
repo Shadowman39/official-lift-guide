@@ -3,6 +3,7 @@ title: Wheel Lifts
 author: Shadowman39
 category: Jekyll
 layout: post
+data_file: wheel
 ---
 
-Some text here.
+{%- include_relative page-layout.md -%}

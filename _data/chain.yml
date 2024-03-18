@@ -1,0 +1,96 @@
+lifts:
+
+  - name: Standard Chain Lift
+    author: Knex
+    featured: Big Ball Factory
+    category: main
+    instructions: 
+    description: This is the most familiar lift since it is in most of the original ball machine sets by Knex, such as the Big Ball Factory and Trampoline Tower. It's simple and piece-friendly, but isn't very unique.
+    images:
+      - - FFXGP30G33P0QBO.jpg
+        - A tall chain lift used in Disco Track
+      - - FUHIBPJG4PBSP9I.JPG
+        - Bottom view of a lift used in Cataclysm
+
+  - name: Chainsaw Lift
+    author: "[Shadowman39](https://www.instructables.com/member/Shadowman39/)"
+    featured: "[Cataclysm](https://www.instructables.com/id/Cataclysm-Knex-Ball-Machine-1/)"
+    category: main
+    description: These use a chain that goes along a track for guidance, and the holders for the balls are usually smaller. They can be more reliable since the balls can't fall off the chain, and also more versatile with different layouts that can be made.
+    images:
+      - - FTRR47SGFRWQ4OG.jpg
+        - The chainsaw lift in Cataclysm
+      - - FBKRRG7GFRWQQ9O.jpg
+        - I_am_Canadian's lift, used in Loopy
+
+  - name: Chain Path Lift
+    author: "[Shadowman39](https://www.instructables.com/member/Shadowman39/)"
+    featured: "[Cataclysm](https://www.instructables.com/id/Cataclysm-Knex-Ball-Machine-1/)"
+    category: standard chain lift
+    video: https://youtu.be/jKbbWwdqmp0?si=SljpnDrFpv4mlfRZ&t=82
+    description: This lift doubles as a chain path element at the top, and the ball lands in a basket at the end. -warning- The main issue is that the chain stretches out over time due to the long horizontal sections.
+    images:
+      - - FBFC4M8G4PBSP9Q.jpg
+        - 
+      - - FMKOBOSG4PBSP9P.jpg
+        - A view of the chain path
+      - - FZYWGUPG4PBSP9M.jpg
+        - The basket at the top
+
+  - name: Inverted Chainsaw Lift
+    author: "[shadowninja31](https://www.instructables.com/member/shadowninja31/)"
+    featured: "[Small ball machine](https://www.instructables.com/id/SBM-Element/)"
+    category: chainsaw lift
+    description: The chain is above the track in these lifts, and this allows for different directions such as vertical and 45 degrees.
+    images:
+      - - F4O1LLAGIH8NCHR.jpg
+        - shadowninja31's vertical inverted version
+      - - FR30O6IGIH8NCHU.jpg
+        - A view of the bottom
+      - - FWQQBC1HR9V845T.jpg
+        - Sorunome's multi-direction lift, which goes vertical, 45 degrees, and changes into a normal chainsaw. Built for Apocalypse.
+
+  - name: Semi-circle Lift
+    author: "[Tornado96](https://www.instructables.com/member/Tornado96/)"
+    featured: "[Dragon Level](https://www.instructables.com/id/Dragon-Gem-Knex-Ball-Machine/)"
+    category: chainsaw lift
+    instructions: https://www.instructables.com/id/Knex-Semi-Circle-Lift/
+    description: This chain lift runs along a guide that is a semi-circle, and the balls balance on the chain rather than needing a wide track. It can be made different sizes as seen in the photos.
+    images:
+      - - FPPZSBMH1PISWVW.jpg
+        - The original semi-circle lift
+      - - FPDUUNJH1JUJ149.jpg
+        - Sorunome's version, which is larger, built for Dystopia
+
+  - name: Alternate Chain Lift
+    author: "[floris2burn](https://www.instructables.com/member/floris2burn/)"
+    featured: "[Cyclo](https://www.instructables.com/id/CYCLO/)"
+    category: standard chain lift
+    instructions: https://www.instructables.com/id/Cyclo-knex-ball-machine-elements/
+    description: These are alternate designs from the standard. Floris2burn's uses a track to keep the ball in place and the chain can go in different directions, since the gears are placed to allow the ball claw to pass through. The [second version](https://www.instructables.com/id/Versatile-Chainsaw-Lift-a-Knex-Ball-Machine-Lift/) uses a slightly different layout and claws.
+    images:
+      - - FTHRPWVG4UH8T3D.jpg
+        - The version used in Cyclo
+      - - FKA9XF8G4UH8T3C.jpg
+        - 
+      - - FQFTIB9G4UH8T3B.jpg
+        - 
+      - - FLABBK5IQ8A5KGF.jpg
+        - www139's version, used in Impossible
+
+  - name: 
+    author: 
+    featured: 
+    category: 
+    video: 
+    instructions: 
+    description: 
+    images:
+      - - 
+        - 
+      - - 
+        - 
+      - - 
+        - 
+      - - 
+        - 
