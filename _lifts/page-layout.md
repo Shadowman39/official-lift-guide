@@ -18,7 +18,7 @@
 
 ---
 
-**{{ entry.name }}**
+### {{ entry.name }}
 
 {%- include_relative image-display.md -%}
 {% endfor %}
