@@ -6,4 +6,6 @@ layout: post
 data_file: car
 ---
 
+Coming soon
+
 {%- include_relative page-layout.md -%}
