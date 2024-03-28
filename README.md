@@ -13,3 +13,9 @@ Here are some other ball machine guides for other components. Keep in mind that 
 + [Elements](https://www.instructables.com/id/The-Official-Guide-to-Knex-Ball-Machine-Elements/) (by Knextreme)
 + [Path separators](https://www.instructables.com/id/The-official-guide-to-knex-ball-machine-path-separ/) (by mathsboy314)
 
+> ##### TIP
+>
+> Clicking on an image enlarges it and shows the description, and shift+scrollwheel will scroll the image lists to the left or right.
+>
+{: .block-tip }
+

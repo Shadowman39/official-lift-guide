@@ -1,5 +1,5 @@
 # Configurations
-title:            Lift Guide
+title:            Intro
 longtitle:        The Official Guide to Knex Ball Machine Lifts
 author:           Shadowman39
 email:            ...
@@ -20,6 +20,9 @@ toc:
   enabled: true
   h_min: 2
   h_max: 3
+
+tracker:
+  google_analytics: "<G-55GG8CZVQ3>"
 
 # customize the link favicon in header, will be {{site.baseurl}}/{{site.favicon_path}}
 favicon_path:     /assets/gitbook/images/favicon.ico

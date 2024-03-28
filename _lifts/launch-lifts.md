@@ -6,6 +6,6 @@ layout: post
 data_file: launch
 ---
 
-Coming soon
+More coming soon
 
 {%- include_relative page-layout.md -%}
