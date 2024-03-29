@@ -190,3 +190,16 @@ lifts:
         - 
       - - FBEK5BQGNOD67UJ.jpg
         - 
+
+  - name: Cardan Gear Lift
+    author: "[Austron](https://www.youtube.com/@Austron)"
+    featured: 
+    category: rotating arm lift
+    video: http://www.youtube.com/watch?v=vwzpHMq5Tw4
+    instructions: 
+    description: This lift uses a mechanism that operates like a cardan gear to have one arm on the end of another, and they rotate at the same speed; at the top and bottom they are colinear. This not only looks cool but saves space to the left and right, since it doesn't need a full arm radius 360 degrees around like a normal rotating arm.
+    images:
+      - - Screenshot 2024-03-29 173207.png
+        - The lift right after it releases a ball
+      - - Screenshot 2024-03-29 173320.png
+        - Loading a ball at the bottom

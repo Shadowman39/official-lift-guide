@@ -32,15 +32,19 @@ lifts:
         - A view showing the piston
 
   - name: Tube Claw Lift
-    author: "[sandroknexmaster](https://www.instructables.com/member/sandroknexmaster)"
-    featured: "[Elysium](https://www.instructables.com/id/Knex-Ball-Machine-Elysium/)"
+    author: "[martijnb95](https://www.instructables.com/member/martijnb95/)"
+    featured: 
     category: main
-    video: https://www.youtube.com/watch?v=C5C5kvLXGbk
+    video: https://www.youtube.com/watch?v=-wyQGC0oYHg
     instructions: https://www.instructables.com/id/Tube-Claw-Lift-a-knex-ball-machine-lift/
-    description: This is a compact and complex lift that uses two alternating sets of claws that go up and down to transfer the ball from one level to the next. The balls go through a one-way gate to keep them in place between cycles. Keep in mind that it only lifts one ball at a time.
+    description: This is a lift that uses two alternating sets of claws that go up and down to transfer the ball from one level to the next, and it happens within a vertical shaft. The balls go through a one-way gate to keep them in place between cycles. The original version has one set of claws.
+      <br><br>
+      sandroknexmaster made a version that uses multiple sets of claws, featured in [Elysium](https://www.instructables.com/id/Knex-Ball-Machine-Elysium/). The link to the instructions is above. Keep in mind that it only lifts one ball at a time.
     images:
+      - - Screenshot 2024-03-29 174202.png
+        - martijnb95's original version (there's more to the lift at the top that isn't shown)
       - - FJFAYUUIQ8A4ZQX.jpg
-        - 
+        - sandroknexmaster's version with multiple claws per side
       - - FEJ6BLJIQ8A4ZQY.jpg
         - 
       - - FBSJPZZIQ8A4ZQP.jpg
