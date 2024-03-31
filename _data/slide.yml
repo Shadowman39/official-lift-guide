@@ -26,8 +26,10 @@ lifts:
     instructions: https://www.instructables.com/id/Knex-Pump-Lift/
     description: This lift consists of a chute, and balls are pumped up by a sliding mechanism at the bottom, stacking them until the highest one reaches the exit. A one-way gate keeps the balls from falling back down. There is a piston that moves from side to side, which pushes the balls upward. An obvious issue is you can only make it as high as how many balls you have, and most of these balls will be constantly occupying the chute rather than being used in the rest of the machine.
     images:
+      - - FIDUZJIGINP9S5P.jpg
+        - The original built into Catastropha
       - - FN17H6WH006ITSF.jpg
-        - 
+        - The version from the instructions
       - - FQLTSQ6GINP9SAG.jpg
         - A view showing the piston
 

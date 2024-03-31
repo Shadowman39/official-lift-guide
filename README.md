@@ -15,7 +15,7 @@ Here are some other ball machine guides for other components. Keep in mind that 
 
 > ##### TIP
 >
-> Clicking on an image enlarges it and shows the description, and shift+scrollwheel will scroll the image lists to the left or right.
+> Clicking on an image enlarges it and shows the description, and shift+scrollwheel will scroll the image lists to the left or right. 
 >
 {: .block-tip }
 

@@ -1,3 +1,21 @@
+{%- if site.tracker -%}
+    <!-- trackers -->
+    {%- if site.tracker.google_analytics and jekyll.environment == 'production' -%}
+        <!-- google analytics -->
+        {%- include google-analytics.html -%}
+    {%- endif -%}
+
+    {%- if site.tracker.application_insights -%}
+        <!-- application insights -->
+        {%- include application-insights.html -%}
+    {%- endif -%}
+
+{%- endif -%}
+
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css" />
+<link rel="stylesheet" type="text/css" href="/official-lift-guide/assets/lightbox2.css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox-plus-jquery.min.js"></script>
+
 <meta charset="UTF-8">
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 
@@ -61,16 +79,4 @@
     {%- endfor -%}
 {% endif %}
 
-{%- if site.tracker -%}
-    <!-- trackers -->
-    {%- if site.tracker.google_analytics and jekyll.environment == 'production' -%}
-        <!-- google analytics -->
-        {%- include google-analytics.html -%}
-    {%- endif -%}
 
-    {%- if site.tracker.application_insights -%}
-        <!-- application insights -->
-        {%- include application-insights.html -%}
-    {%- endif -%}
-
-{%- endif -%}
