@@ -14,4 +14,7 @@ Over the years lifts were added by myself and some other contributors, and the l
 
 ## How to Contribute
 
-This section will be updated soon.
+The easiest way you can add your own lift to the guide is to fill out [this submission form](https://forms.gle/W1UGYmtKUfto4boaA). Here you can submit all the required information, including images. If approved your changes will be made on the site in a later update. If you don't have a Google account for the form you can [email/contact me directly](https://shadowman39.github.io/official-lift-guide/about/contact/).
+
+The more advanced way is to [open a pull request](https://github.com/Shadowman39/official-lift-guide/pulls) on the Github page. Here you can not only add lifts but make changes to the website's code and functionality.
+

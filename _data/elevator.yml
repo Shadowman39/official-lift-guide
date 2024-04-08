@@ -78,3 +78,37 @@ lifts:
       - - FIYUFZAHJKC6D0S.jpg
         - 
 
+  - name: Reversing Chain Elevator Lift
+    author: "[Austron]()"
+    featured: 
+    category: future
+    video: 
+    instructions: 
+    description: 
+    images:
+      - - 
+        - 
+      - - 
+        - 
+      - - 
+        - 
+      - - 
+        - 
+
+  - name: C-pulley Shuttle Lift
+    author: "[knexpert#10829476](https://www.instructables.com/member/knexpert%252310829476/)"
+    featured: 
+    category: main
+    video: 
+    instructions: 
+    description: This is similar to the standard reversing elevator except it uses a shuttle that runs along a C-shaped track. It uses two chain loops with a rod between the lifts to pull on a string, which is attached to the shuttle.
+    images:
+      - - FASO02TH8TTO72K.jpg
+        - 
+      - - FJRGP6ZH8TTO72U.jpg
+        - 
+      - - FJLRFFRH8TTO717.jpg
+        - The entrance track, which needs a gate that opens when the shuttle arrives
+      - - FWK5ZRMH8TTO71M.jpg
+        - A view of the chains and pulleys
+

@@ -59,6 +59,8 @@ lifts:
     video: https://www.youtube.com/watch?v=_063QmOIaBk
     instructions: https://www.instructables.com/id/Knex-Ball-Machine-Lithium-w-instructions/step6/Building-The-Quarter-Arm-Lift/
     description: These arms rotate about 90 degrees to pick up and drop off the balls. There can be many different sizes. Smaller ones, which are the most common, use cranks. A [larger arm](https://www.youtube.com/watch?v=tRWhEp1JcyE) used in Cataclysm used reels with string and a rather complex CyberKnex motor setup to handle the up and down motion. A medium-sized version by sandroknexmaster, the [falling arm lift](https://www.instructables.com/id/Falling-Arm-Lift-a-knex-ball-machine-lift/), has an arm that returns quickly to the beginning and a tipping end to make the ball exit, all controlled by the crank.
+      <br><br>
+      It's better to have a counterweight to assist the arm upwards, such as the [eagle arm lift](https://www.instructables.com/Eagle-Arm-Lift-a-Knex-Ball-Machine-Lift/) by sandroknexmaster. In addition to the counterweight upgrade, this version features two mirrored arms that share the same counterweight, so twice the balls can be lifted each cycle.  
     images:
       - - FAKXK8KG33OZ1TI.jpg
         - The large arm lift used in Cataclysm
@@ -66,6 +68,8 @@ lifts:
         - The mechanisms required to make the large arm lift go back down
       - - F6RC2K4HPEG5LK1.jpg
         - The falling arm lift by sandroknexmaster, built for Paradox
+      - - FWDOUZZJ7MG03M6.jpg
+        - sandroknexmaster's eagle arm lift, built for Elysium
 
   - name: Rolling Arm Lift
     author: "[Tornado96](https://www.instructables.com/member/Tornado96/)"
@@ -75,7 +79,7 @@ lifts:
     instructions: 
     description: These are similar to quarter arm lifts except the ball rolls across the arm when it gets to a certain position. The simplest version is one where the ball exits at the end after rolling across, such as [this one](https://www.instructables.com/id/Crossing-arm-lift/) by mathsboy314. To get more height out of it you can make a returning arm lift, where the ball lifts further after rolling across to the top, almost as if the arm rotated 180 degrees.
       <br><br>
-      When stacking multiple arms, there are different ways the balls can go from one to the other. With the [parallel arm lift](https://www.instructables.com/id/Knex-Parallel-Arm-Lift/), originally made for my [unfinished balla machine](https://youtu.be/2NV1eORsSmc?si=WeQ6Iybflb0HIZ1j&t=23), the ball rolls to the end of the arm when they're down, and goes through the structure of the next arm when they get to the top. Since the arms are in parallel it requires a heavy counterweight for balance. The [counter parallel arm lift](https://www.instructables.com/id/Counter-Parallel-Arm-Lift-a-new-knex-ball-machine/) by sandroknexmaster has two sides of parallel arms which balance each other out, not needing a counterweight.
+      When stacking multiple arms, there are different ways the balls can go from one to the other. With the [parallel arm lift](https://www.instructables.com/id/Knex-Parallel-Arm-Lift/), originally made for my [unfinished ball machine](https://youtu.be/2NV1eORsSmc?si=WeQ6Iybflb0HIZ1j&t=23), the ball rolls to the end of the arm when they're down, and goes through the structure of the next arm when they get to the top. Since the arms are in parallel it requires a heavy counterweight for balance. The [counter parallel arm lift](https://www.instructables.com/id/Counter-Parallel-Arm-Lift-a-new-knex-ball-machine/) by sandroknexmaster has two sides of parallel arms which balance each other out, not needing a counterweight.
     images:
       - - F9YKY89GI0TCO27.jpg
         - The returning arm lift from Dragon Gem
@@ -125,3 +129,20 @@ lifts:
         - The one in Unfinished Ball Machine was almost 8 feet high
       - - FV19FZOH4ZN5E1Z.jpg
         - Thibault Art's simpler version, rebuilt by collinjo12 for instructions
+
+  - name: V Arm Lift
+    author: "[sandroknexmaster](https://www.instructables.com/member/sandroknexmaster/)"
+    featured: "[Elysium](https://www.instructables.com/id/Knex-Ball-Machine-Elysium/)"
+    category: quarter arm lift
+    video: https://www.youtube.com/watch?v=QcMS6sYnTGo
+    instructions: https://www.instructables.com/V-Lift-a-Knex-Ball-Machine-Lift/
+    description: This lift features two arms connected 90 degrees apart, where each arm acts as the other's counterweight. The original version has paths built into the arms that cause a ball from the left entrance track to be lifted by the right arm, and vice versa. There's a rather complex system of chain that lifts each side up. If you build them smaller and don't include the paths inside the arms, you can use a crank instead like a normal quarter arm lift.
+    images:
+      - - FS0RKNTJ7UQTX9W.jpg
+        - 
+      - - F35VRFIJ7UQTX7X.jpg
+        - The end of one of the arms
+      - - F1A3W37J7UQTX8B.jpg
+        - A view of the chain system for one side. A grey rod lifts the arm up by traveling underneath.
+      - - FROK03HJ7UQTX82.jpg
+        - A closer view of the grey rod underneath the arm

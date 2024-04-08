@@ -32,3 +32,8 @@
 .crop {
     object-fit: cover;
 }
+
+/* For email spam protection */
+span.blockspam {
+    display: none;
+}

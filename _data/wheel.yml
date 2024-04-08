@@ -72,7 +72,7 @@ lifts:
     instructions: 
     description: The main difference with these lifts is how the balls exit at the top. Usually they are pushed to the side to an offset track, which can be easier to build than an inline exit track since those need to be at an exact level. There are also exits that use arms to catch the ball and release it off to the side, such as the [large rotating arm](https://youtu.be/p4Y1k7d9vPk?si=J4aDJdw5vlhyoSpc&t=20) from Wipe Out (in this case smool's version mentioned previously is the easier way to make a large arm lift). Another method is sandroknexmaster's [ferris wheel lift](https://www.instructables.com/id/Ferris-Wheel-Lift-a-knex-ball-machine-lift/), which uses carriers that tilt to let the ball exit. 
       <br><br>
-      A different design by sandroknexmaster, the Spinning Freefall Lift, picks up the ball and drops it at the top after it goes down the freefall of the arm to the other side. [Here's the instructions](https://www.instructables.com/Spinning-Free-Fall-Lift-a-new-knex-ball-machine-l/).
+      A different design by sandroknexmaster, the Spinning Freefall Lift, picks up the ball and drops it at the top after it goes down the freefall of the arm to the other side. [Here's the instructions](https://www.instructables.com/Spinning-Free-Fall-Lift-a-new-knex-ball-machine-l/). A similar yet larger design is the [separating arm lift](https://www.instructables.com/Separating-Arm-Lift-a-Knex-Ball-Machine-Lift/), which takes advantage of the freefall aspect by having the ball exit at different levels on each arm. So, this is both a lift and a path separator. There are 8 levels that can lead to different paths. The only downside is that the balls, especially the paths closer to the wheel's axis, lose a lot of height.
     images:
       - - FQTI4KTI2AQUNUC.jpg
         - sandroknexmaster's floor arm lift, which picks up balls directly from a floor
@@ -82,6 +82,10 @@ lifts:
         - Ferris wheel lift, made by sandroknexmaster for Elysium
       - - FNR6NVCH1YOB85N.jpg
         - sandroknexmaster's spinning freefall lift, from Dragonfire
+      - - FVTXEJOJM0V3YRH.jpg
+        - sandroknexmaster's separating arm lift, built for Elysium
+      - - FVZ07XWJM0V3YVY.jpg
+        - A view showing the 8 exit tracks
 
   - name: Wheel Lift
     author: "[KageKumo](http://www.youtube.com/user/KageKumo)"

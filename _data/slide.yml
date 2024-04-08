@@ -170,3 +170,20 @@ lifts:
         - 
       - - FIBOCYPIQ8A5X1G.jpg
         - 
+
+  - name: Spiral Stepper Lift
+    author: "[sandroknexmaster](https://www.instructables.com/member/sandroknexmaster/)"
+    featured: "[Elysium](https://www.instructables.com/id/Knex-Ball-Machine-Elysium/)"
+    category: stepper lift
+    video: https://www.youtube.com/watch?v=9fPKodBYn4Y
+    instructions: https://www.instructables.com/Spiral-Stepper-Lift-a-Knex-Ball-Machine-Lift/
+    description: With this lift there are four corners, each a set of steppers, that are arranged to make the ball be lifted up along a spiral path. The balls exit each stepper when they get wedged against a pusher, so the steppers are simpler than the original stepper lift.
+    images:
+      - - F722BTAJ7MFERYO.jpg
+        - The lift from the instructions
+      - - FN4XVUPJ7MFERZ7.jpg
+        - A close-up of the steppers
+      - - FU025O5J7MFES2W.jpg
+        - The top mechanism takes up a lot of space, so be sure to plan accordingly.
+      - - F3VVIXJJ7MFES0C.jpg
+        - The double crank at the top which connects to the two sides
