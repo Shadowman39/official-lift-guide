@@ -89,25 +89,26 @@ lifts:
         - sandroknexmaster's counter parallel arm lift, made for Euphoria
 
   - name: Stacked Arm Lift
-    author: "[Tornado96](https://www.instructables.com/member/Tornado96/) and [Shadowman39](https://www.instructables.com/member/Shadowman39/)"
-    featured: 
+    author: "[sandroknexmaster](https://www.instructables.com/member/sandroknexmaster/)"
+    featured: "[Euphoria](https://www.instructables.com/id/Knex-Ball-Machine-Euphoria/)"
     category: main
-    video: https://www.youtube.com/watch?v=E6haOsTXlN8
-    instructions: https://www.instructables.com/id/Knex-Shifting-Arm-Lift/
-    description: Arm lifts can be stacked, where the arms alternate positions and hand each other the balls directly. They can be stacked vertically or at an angle. A basic example of one at an angle is the [connected arm lift](https://www.instructables.com/id/Connected-Arm-Lift-a-new-knex-ball-machine-lift/) by sandroknexmaster. Since they're at an angle the arms travel about 90 degrees. To stack arms vertically, such as [this lift](https://www.instructables.com/id/Knex-multiple-arm-ball-machine-lift/) by mathsboy314, the arms are often timed in a way for the arm above to come underneath the arm that's below to scoop up the ball. There's a [vertical version](https://www.instructables.com/id/Right-handed-armlift-a-Knex-ball-machine-lift/) by [dickheijboer](https://www.instructables.com/member/dickheijboer/) that uses four stacked arms, and it requires two separate crankshafts connected with chain. 
+    video: 
+    instructions: https://www.instructables.com/Connected-Arm-Lift-a-new-knex-ball-machine-lift/
+    description: Arm lifts can be stacked, where the arms alternate positions and hand each other the balls directly. They can be stacked vertically or at an angle. A basic example of one at an angle is the [connected arm lift](https://www.instructables.com/id/Connected-Arm-Lift-a-new-knex-ball-machine-lift/) by sandroknexmaster. Since they're at an angle the arms travel about 90 degrees. A version that uses less pieces, the [flimsy connected arm lift](https://www.instructables.com/Knex-Flimsy-Stacked-Arm-Ball-Lift/) by [mathsboy314](https://www.youtube.com/@mathsboy314), has arms that are at a steeper angle, and the arms are connected with linkages from one arm to the other rather than a double crank. This makes it more simple, though it might be difficult to make it more than six arms in a row.
       <br><br>
-      The balls can also leave the arms with an offset exit, such as the shifting arm lift, named since the balls shift from one side of arms to the other. 
+      To stack arms vertically in one column, such as [this lift](https://www.instructables.com/id/Knex-multiple-arm-ball-machine-lift/) by mathsboy314, the arms are often timed in a way for the arm above to come underneath the arm that's below to scoop up the ball. There's a [vertical version](https://www.instructables.com/id/Right-handed-armlift-a-Knex-ball-machine-lift/) by [dickheijboer](https://www.instructables.com/member/dickheijboer/) that uses four stacked arms, and it requires two separate crankshafts connected with chain. There are also ways of having vertical arms, but without this specific timing, making them simpler. However, there will need to be at least two sets of vertical arms; this will be covered below.
+      
+      
     images:
       - - FME8VSMH9947BUB.jpg
         - sandroknexmaster's connected arm lift, built for Euphoria
+      - - FERA4Q0LWW4I4AO.jpg
+        - mathsboy314's flimsy connected arm lift
       - - F7YJGCNHM8DKIWL.jpg
         - dickheijboer's lift, with four arms
       - - FL2FKFUHM8DKIWK.jpg
         - This shows the arms with different widths, required to allow them to overlap each other
-      - - FD74XBQHCB8QZRZ.jpg
-        - The shifting arm lift, a collaboration between Tornado96 and Shadowman39
-      - - FLDLAU7HLSHEJ6Q.jpg
-        - Shifting arm lifts can go pretty high, like this one made by Sorunome for Apocalypse
+
 
   - name: Modified Stepper Lift
     author: "[Shadowman39](https://www.instructables.com/member/Shadowman39/)"
@@ -146,3 +147,16 @@ lifts:
         - A view of the chain system for one side. A grey rod lifts the arm up by traveling underneath.
       - - FROK03HJ7UQTX82.jpg
         - A closer view of the grey rod underneath the arm
+
+  - name: Shifting Arm Lift
+    author: "[Tornado96](https://www.instructables.com/member/Tornado96/) and [Shadowman39](https://www.instructables.com/member/Shadowman39/)"
+    featured: 
+    category: stacked arm lift
+    video: https://www.youtube.com/watch?v=E6haOsTXlN8
+    instructions: https://www.instructables.com/id/Knex-Shifting-Arm-Lift/
+    description: The balls can also leave stacked arms with an offset exit, such as the shifting arm lift, named since the balls shift from one side of arms to the other. Both sets of arms are stacked vertically and use a double crank at the bottom to alternate each side of arms. -warning- If making a taller lift than the one in the instructions, you may need to make the double crank stronger such as the one in [this image](https://content.instructables.com/FBC/A01E/LVGONKCU/FBCA01ELVGONKCU.jpg?auto=webp&width=1600&height=900&fit=bounds&md=MjAyNC0wNC0yNiAxMToyNDo0NC4w).
+    images:
+      - - FD74XBQHCB8QZRZ.jpg
+        - The shifting arm lift, a collaboration between Tornado96 and Shadowman39
+      - - FLDLAU7HLSHEJ6Q.jpg
+        - Shifting arm lifts can go pretty high, like this one made by Sorunome for Apocalypse
