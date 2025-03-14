@@ -25,7 +25,7 @@ tracker:
   google_analytics: "G-55GG8CZVQ3"
 
 # customize the link favicon in header, will be {{site.baseurl}}/{{site.favicon_path}}
-favicon_path:     /assets/gitbook/images/favicon.ico
+favicon_path:     /assets/img/favicon.png
 
 # markdown render engine.
 markdown:         kramdown
@@ -70,3 +70,4 @@ plugins:
   - jekyll-feed
   - jekyll-readme-index
   - jemoji
+  - jekyll-sitemap

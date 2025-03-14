@@ -22,7 +22,7 @@ require(['gitbook', 'jQuery'], function (gitbook, $) {
                 .find(ARTICLE_CHILDREN)
                 .prev()
                 .css('cursor', 'pointer')
-                .on('click', function (e) {
+                .on('click', '.exc-trigger', function (e) { // Modified selector to target only the trigger icon
                     e.preventDefault();
                     e.stopPropagation();
                     toggle($(e.target).closest(FOLDABLE));
@@ -35,7 +35,7 @@ require(['gitbook', 'jQuery'], function (gitbook, $) {
                 .prev()
                 .append(
                     $(TRIGGER_TEMPLATE)
-                        .on('click', function (e) {
+                        .on('click', '.exc-trigger', function (e) { // Modified selector to target only the trigger icon
                             e.preventDefault();
                             e.stopPropagation();
                             toggle($(e.target).closest(FOLDABLE));
