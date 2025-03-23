@@ -49,22 +49,31 @@ span.blockspam {
     color: black;
 }
 
-/* Light theme */
+/* Light theme (default) */
 :root {
     --search-input-text-color: black;
     --search-input-bg-color: white;
+    --card-bg-color: #f3f6fa;         /* Default light background */
+    --card-border-color: #ccc;        /* Default light border */
+    --card-text-color: black;         /* Default text color */
 }
 
 /* Sepia theme */
 .book.color-theme-1 {
     --search-input-text-color: black;
     --search-input-bg-color: white;
+    --card-bg-color: #f4e4bc;         /* Sepia background */
+    --card-border-color: #8b5a2b;     /* Sepia-toned border */
+    --card-text-color: #4a2c0f;       /* Darker sepia text */
 }
 
 /* Dark theme */
 .book.color-theme-2 {
     --search-input-text-color: white;
     --search-input-bg-color: #2d3143;
+    --card-bg-color: #2d3143;         /* Dark background */
+    --card-border-color: #4c535d;        /* Darker border */
+    --card-text-color: #bdcadb;         /* White text for dark theme */
 }
 
 #book-search-input-inside input {
@@ -75,26 +84,81 @@ span.blockspam {
     background-color: var(--search-input-bg-color);
 }
 
+/* Updated card styling */
 .card {
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid var(--card-border-color);
+    border-radius: 10px;
+    background-color: var(--card-bg-color);
+    color: var(--card-text-color);
+}
+
+.card h2 {
+    margin-top: 20px; /* Removes the top margin */
+  }
+
+.card-form {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #f3f6fa;
 }
 
-@media (min-width: 768px) {
+/* For desktop displays only */
+@media (min-width: 769px) {
   .carousel {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 10px; /* Add some spacing between grid items */
     overflow-y: scroll; /* Enable vertical scroll */
     white-space: normal; /* Allow text wrapping if needed */
     height: auto; /* Adjust height to content */
-    max-height: 410px; /* Limit height to show only the first row */
+    max-height: 410px; /* Limit height to show only the first row and some of the next */
+    padding-right: 5px; /* Add padding to the right to create space for scrollbar on the left */
   }
 
   .carousel>div {
     display: block; /* Make divs block elements within the grid */
     height: auto; /* Adjust height to content */
   }
+
+  .card {
+    padding: 20px;
+  }
+
+  .card h2 {
+    margin-top: 2px; /* Reduces the top margin */
+  }
+
+  hr {
+    margin-left: -25px !important;     /* Adjust spacing on the left */
+    margin-right: -25px !important;    /* Adjust spacing on the right */
+}
+}
+
+/* For mobile displays only */
+@media (max-width: 768px) {
+    hr {
+      margin-left: -5px !important;     /* Adjust spacing on the left */
+      margin-right: -5px !important;    /* Adjust spacing on the right */
+    }
+}
+
+/* Fix for the sepia theme links */
+.book.color-theme-1 .book-body .page-wrapper .page-inner section.normal a {
+    color: #4183c4;
+}
+
+/* So mobile view fits more on the page */
+.page-inner {
+    padding-left: 12px;
+    padding-right: 2px;
+}
+
+/* Make separators look better */
+hr {
+    border: none !important;           /* Remove default styling */
+    border-top: 1px solid var(--card-border-color) !important; /* Thin 1px border with a light gray color */
+    background-color: transparent !important;
 }

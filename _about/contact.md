@@ -29,7 +29,7 @@ formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
 
 
 <!-- Code for the contact form embed -->
-<div class="card">
+<div class="card-form">
   <div id="formkeep-embed" data-formkeep-url="https://formkeep.com/p/2b473a9b16b3ad78af6f38aac1dee1d7?embedded=1"></div>
 </div>
 

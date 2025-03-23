@@ -18,3 +18,8 @@ The easiest way you can add your own lift to the guide is to fill out [this subm
 
 The more advanced way is to [open a pull request](https://github.com/Shadowman39/official-lift-guide/pulls) on the Github page. Here you can not only add lifts but make changes to the website's code and functionality.
 
+<br>
+<br>
+<br>
+
+> <div style="font-size: smaller;">Note: This website is not affiliated with, endorsed by, or sponsored by K’NEX or Basic Fun.</div>

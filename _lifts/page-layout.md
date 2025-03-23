@@ -4,10 +4,9 @@
 
 <!-- First loop through main lifts -->
 {% for entry in main %}
+<div class="card">
 
----
-
-## {{ entry.name }}
+{{ "## " | append: entry.name | markdownify }}
 
 {%- include_relative image-display.md -%}
 
@@ -16,10 +15,11 @@
 {%- assign sub = site.data[folder].lifts | where: "category", subName -%}
 {% for entry in sub %}
 
----
+{{ "---" | markdownify }}
 
-### {{ entry.name }}
+{{ "### " | append: entry.name | markdownify }}
 
 {%- include_relative image-display.md -%}
 {% endfor %}
+</div>
 {% endfor %}
