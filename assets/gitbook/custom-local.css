@@ -4,8 +4,9 @@
  *   these get simply added to the ones already active in the layout.
  */
 
- .book .book-body {
+.book .book-body {
     background: #EBEEF5;
+    transition: left 250ms ease;
 }
 
 /* For the horizontal scrollbox */
@@ -36,4 +37,64 @@
 /* For email spam protection */
 span.blockspam {
     display: none;
+}
+
+/* For search page */
+/* Can change the color of the search results if desired */
+#book-search-results .search-results .has-results .search-results-item {
+    color: inherit;
+}
+
+#book-search-results span.search-highlight-keyword {
+    color: black;
+}
+
+/* Light theme */
+:root {
+    --search-input-text-color: black;
+    --search-input-bg-color: white;
+}
+
+/* Sepia theme */
+.book.color-theme-1 {
+    --search-input-text-color: black;
+    --search-input-bg-color: white;
+}
+
+/* Dark theme */
+.book.color-theme-2 {
+    --search-input-text-color: white;
+    --search-input-bg-color: #2d3143;
+}
+
+#book-search-input-inside input {
+    color: var(--search-input-text-color);
+}
+
+#book-search-input-inside {
+    background-color: var(--search-input-bg-color);
+}
+
+.card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f3f6fa;
+}
+
+@media (min-width: 768px) {
+  .carousel {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px; /* Add some spacing between grid items */
+    overflow-y: scroll; /* Enable vertical scroll */
+    white-space: normal; /* Allow text wrapping if needed */
+    height: auto; /* Adjust height to content */
+    max-height: 410px; /* Limit height to show only the first row */
+  }
+
+  .carousel>div {
+    display: block; /* Make divs block elements within the grid */
+    height: auto; /* Adjust height to content */
+  }
 }

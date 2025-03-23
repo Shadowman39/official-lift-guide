@@ -1,3 +1,4 @@
+<head>
 {%- if site.tracker -%}
     <!-- trackers -->
     {%- if site.tracker.google_analytics and jekyll.environment == 'production' -%}
@@ -12,6 +13,7 @@
 
 {%- endif -%}
 
+<!-- Include important scripts and sheets to prevent things from not loading until a page refresh, more scripts below -->
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css" />
 <link rel="stylesheet" type="text/css" href="/official-lift-guide/assets/lightbox2.css" />
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox-plus-jquery.min.js"></script>
@@ -79,4 +81,6 @@
     {%- endfor -%}
 {% endif %}
 
-
+<script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+<script type="text/javascript" src="https://cdn.formkeep.com/formkeep-embed.js"></script>
+</head>

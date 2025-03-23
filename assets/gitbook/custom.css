@@ -265,6 +265,25 @@
     color: var(--c-danger-title);
 }
 
+/* Dark theme block styles, to fix incorrect default colors */
+.color-theme-2 .markdown-section blockquote.block-tip {
+    border-color: #2d6b4e;
+    background-color: #1e3d2f;
+    color: #a7c7b5;
+}
+
+.color-theme-2 .markdown-section blockquote.block-warning {
+    border-color: #7a6b00;
+    background-color: #3d3619;
+    color: #d6c873;
+}
+
+.color-theme-2 .markdown-section blockquote.block-danger {
+    border-color: #7a0000;
+    background-color: #3d1919;
+    color: #d67373;
+}
+
 pre:has(code.language-mermaid[data-processed="true"]) {
     background-color: #ffffff;
     text-align: center;

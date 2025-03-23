@@ -5,15 +5,31 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
             'icon': 'fa fa-facebook',
             'onClick': function(e) {
                 e.preventDefault();
-                window.open('http://www.facebook.com/sharer/sharer.php?s=100&p[url]='+encodeURIComponent(location.href));
+                window.open('https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fshadowman39.github.io%2Fofficial-lift-guide%2F');
             }
         },
         'twitter': {
-            'label': 'Twitter',
+            'label': 'X',
             'icon': 'fa fa-twitter',
             'onClick': function(e) {
                 e.preventDefault();
-                window.open('http://twitter.com/home?status='+encodeURIComponent(document.title+' '+location.href));
+                window.open('https://twitter.com/intent/tweet?url=https%3A%2F%2Fshadowman39.github.io%2Fofficial-lift-guide%2F&text=Check%20out%20the%20Official%20Lift%20Guide!');
+            }
+        },
+        'reddit': {
+            'label': 'Reddit',
+            'icon': 'fa fa-reddit',
+            'onClick': function(e) {
+                e.preventDefault();
+                window.open('https://www.reddit.com/submit?url=https%3A%2F%2Fshadowman39.github.io%2Fofficial-lift-guide%2F&title=Official%20Lift%20Guide');
+            }
+        },
+        'pinterest': {
+            'label': 'Pinterest',
+            'icon': 'fa fa-pinterest',
+            'onClick': function(e) {
+                e.preventDefault();
+                window.open('https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fshadowman39.github.io%2Fofficial-lift-guide%2F&description=Official%20Lift%20Guide');
             }
         },
         'github': {
