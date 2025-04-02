@@ -9,6 +9,13 @@
     transition: left 250ms ease;
 }
 
+/* To fix the white background flash on mobile sidebar transition */
+html, body {
+    background: var(--body-bg-color) !important; /* Match your site’s background */
+    height: 100%;
+    margin: 0;
+  }
+
 /* For the horizontal scrollbox */
 .carousel {
     height: 74%;
@@ -56,24 +63,32 @@ span.blockspam {
     --card-bg-color: #f3f6fa;         /* Default light background */
     --card-border-color: #ccc;        /* Default light border */
     --card-text-color: black;         /* Default text color */
+    --body-bg-color: #EBEEF5;
 }
 
 /* Sepia theme */
 .book.color-theme-1 {
     --search-input-text-color: black;
-    --search-input-bg-color: white;
-    --card-bg-color: #f4e4bc;         /* Sepia background */
+    --search-input-bg-color: #f1eddd;
+    --card-bg-color: #f3edd7;         /* Sepia background */
     --card-border-color: #8b5a2b;     /* Sepia-toned border */
     --card-text-color: #4a2c0f;       /* Darker sepia text */
+}
+/* :has section needed to go up a level into html/body for the vars */
+html:has(.book.color-theme-1) {
+    --body-bg-color: #f3eacb;
 }
 
 /* Dark theme */
 .book.color-theme-2 {
     --search-input-text-color: white;
-    --search-input-bg-color: #2d3143;
+    --search-input-bg-color: #2b2e3d;
     --card-bg-color: #2d3143;         /* Dark background */
     --card-border-color: #4c535d;        /* Darker border */
     --card-text-color: #bdcadb;         /* White text for dark theme */
+}
+html:has(.book.color-theme-2) {
+    --body-bg-color: #1c1f2b;
 }
 
 #book-search-input-inside input {
@@ -98,12 +113,6 @@ span.blockspam {
     margin-top: 20px; /* Removes the top margin */
   }
 
-.card-form {
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f3f6fa;
-}
 
 /* For desktop displays only */
 @media (min-width: 769px) {
@@ -140,8 +149,17 @@ span.blockspam {
 /* For mobile displays only */
 @media (max-width: 768px) {
     hr {
-      margin-left: -5px !important;     /* Adjust spacing on the left */
-      margin-right: -5px !important;    /* Adjust spacing on the right */
+        margin-left: -5px !important;
+        margin-right: -5px !important;
+    }
+
+    /* Lift cards show smaller on mobile */
+    .lift-card {
+        width: 150px !important;
+    }
+
+    .lift-image-wrapper {
+        padding-top: 50% !important; /* Adjust aspect ratio for mobile */
     }
 }
 
@@ -161,4 +179,135 @@ hr {
     border: none !important;           /* Remove default styling */
     border-top: 1px solid var(--card-border-color) !important; /* Thin 1px border with a light gray color */
     background-color: transparent !important;
+}
+
+/* Lift Navigation Cards */
+.lift-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px; /* Spacing between cards */
+    justify-content: center; /* Center cards horizontally */
+    margin: 10px 0; /* Add some vertical space around the container */
+  }
+  
+.lift-card {
+    display: block; /* Make the link a block element */
+    padding: 2px; /* Inner spacing - kept from original plan */
+    border: 1px solid var(--card-border-color); /* From your example */
+    border-radius: 10px; /* From your example */
+    background-color: var(--card-bg-color) !important; /* From your example */
+    color: var(--card-text-color); /* From your example */
+    text-align: center;
+    text-decoration: none; /* Remove underline from link */
+    width: 200px; /* Fixed width for consistency */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Subtle shadow */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth hover effect */
+}
+
+.lift-card:hover {
+    transform: translateY(-3px); /* Lift effect on hover */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1); /* Enhance shadow on hover */
+}
+
+.lift-card-text {
+    display: block; /* Ensure text is on its own line */
+    font-weight: 600; /* Make text slightly bolder */
+    font-size: 1em; /* Standard text size */
+    /* Inherits color from .lift-card */
+}
+
+/* Add a wrapper to enforce aspect ratio */
+.lift-image-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 75%; /* Sets the aspect ratio */
+    overflow: hidden;
+}
+
+/* Style the image inside the wrapper */
+.lift-image-wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Crop the image to fill the wrapper */
+    object-position: center; /* Center the image during cropping */
+    margin: 0; /* Remove the margin from the image itself */
+}
+
+/* Adjust the .lift-card img rule to remove the old height */
+.lift-card img {
+    max-width: 100%; /* Ensure image doesn't overflow */
+    display: block; /* Center image */
+    margin: 0 auto 10px auto; /* Space below the wrapper */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Section for the expandable lift cards */
+details > summary {
+    cursor: pointer;
+    list-style: none; /* Remove default arrow */
+    text-align: center; /* Center the text */
+    padding: 10px; /* Add some padding */
+    background-color: var(--card-bg-color); /* Light background color */
+    border: 1px solid var(--card-border-color); /* Add a border */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+  }
+  
+  details > summary:hover {
+    background-color: var(--body-bg-color); /* Darker background on hover */
+  }
+  
+  details[open] > summary {
+    margin-bottom: 10px; /* Add space below summary when expanded */
+  }
+  
+  details > summary::marker {
+    display: none; /* Hide the default marker */
+  }
+  
+  details > summary::before {
+    content: '▶'; /* Add a custom arrow */
+    display: inline-block;
+    margin-right: 5px;
+    transition: transform 0.3s ease; /* Smooth arrow rotation */
+  }
+  
+  details[open] > summary::before {
+    transform: rotate(90deg); /* Rotate arrow when expanded */
+  }
+  
+  details > * {
+    transition: max-height 0.5s ease-in-out; /* Smooth expand/collapse transition */
+    overflow: hidden; /* Ensure content is hidden during transition */
+  }
+
+/* --- Responsive Lift Card Display --- */
+
+/* Default (Desktop): Show desktop cards, hide mobile cards */
+#desktop-lift-cards {
+  display: block; /* Or flex, grid, etc., depending on its internal layout */
+}
+#mobile-lift-cards {
+  display: none;
+}
+
+/* Mobile: Hide desktop cards, show mobile cards */
+@media (max-width: 768px) {
+  #desktop-lift-cards {
+    display: none;
+  }
+  #mobile-lift-cards {
+    display: block; /* Or flex, grid, etc. */
+  }
+
+  /* Adjustments for mobile cards if needed */
+  #mobile-lift-cards .lift-card {
+      width: 150px !important; /* Keep mobile card size consistent */
+  }
+  #mobile-lift-cards .lift-image-wrapper {
+      padding-top: 50% !important; /* Keep mobile aspect ratio consistent */
+  }
 }

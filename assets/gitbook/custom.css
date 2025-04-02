@@ -51,6 +51,7 @@
 
 .book .book-body .book-header {
     background: #EBEEF5;
+    border-bottom: 1px solid var(--card-border-color);
 }
 
 .book.color-theme-1 .book-body .book-header {

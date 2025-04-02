@@ -15,3 +15,8 @@ These involve a chain, either the normal chain pieces or one that's made from no
 
 
 {%- include_relative page-layout.md -%}
+
+<details id="lift-types-details">
+    <summary>Show Lifts</summary>
+    {% include_relative nav-cards.md %}
+</details>

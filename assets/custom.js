@@ -7,3 +7,16 @@ document.addEventListener('keydown', function (event) {
         event.preventDefault();
     }
 }, true); // Use capture phase to intercept the event before GitBook
+
+// This is to scroll to the details element when it is opened
+document.addEventListener('DOMContentLoaded', function() {
+    const detailsElement = document.getElementById('lift-types-details');
+  
+    if (detailsElement) {
+      detailsElement.addEventListener('toggle', function(event) {
+        if (detailsElement.open) {
+          detailsElement.scrollIntoView({ behavior: 'smooth', block: 'end' });
+        }
+      });
+    }
+  });

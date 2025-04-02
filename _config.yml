@@ -25,7 +25,7 @@ tracker:
   google_analytics: "G-55GG8CZVQ3"
 
 # customize the link favicon in header, will be {{site.baseurl}}/{{site.favicon_path}}
-favicon_path:     /assets/img/favicon.png
+favicon_path:     /assets/img/favicon3.png
 
 # markdown render engine.
 markdown:         kramdown

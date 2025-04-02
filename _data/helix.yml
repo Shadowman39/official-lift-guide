@@ -28,7 +28,7 @@ lifts:
     category: main
     video: 
     instructions: https://www.instructables.com/Knex-Industrial-Helix-Lift/
-    description: Instead of the helix spinning in the center, the tower spins in the center, with the helix outside. This lift is much more efficient than the traditional single/double helix lift, because it can be made taller, since the tower in the middle is stronger than a helix (I wouldn't go more than 4-6 feet tall). An improved version of this lift was made for Citadel V2, known as the Industrial Helix Lift since it was designed for reliability.
+    description: Instead of the helix spinning in the center, the tower spins in the center, with the helix outside. This lift is much more efficient than the traditional single/double helix lift, because it can be made taller, since the tower in the middle is stronger than a helix (I wouldn't go more than 4 feet tall). An improved design, version 2, was made for Citadel V2.
 
       <div style="text-align:center;">
       <iframe width="90%" height="400" src="https://www.youtube.com/embed/Bfko5arZGdI?si=P-RaO3t7stYb7yjO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -44,9 +44,9 @@ lifts:
       - - F7YA4S6HJKBN2BP.jpg
         - A single-strand version by Sorunome
       - - FRWD1HRJOEW6MQN.jpg
-        - The improved, industrial version from the instructions
+        - The improved version 2 from the instructions
       - - FC15M0NJPADXT8G.jpg
-        - The version used in Citadel V2. This one had an enclosed tower for even better reliability, and a single tubing strand. 
+        - The version used in Citadel V2, similar to V2 from the instructions. This one had an enclosed tower for even better reliability, and a single tubing strand. 
 
   - name: Tower Helix Lift
     author: "[Sorunome](https://www.instructables.com/member/Sorunome/)"
