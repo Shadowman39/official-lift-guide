@@ -13,7 +13,7 @@
     </a>
     <a href="{{ site.baseurl }}/lifts/chain-lifts/" class="lift-card">
         <div class="lift-image-wrapper">
-            <img src="{{ site.baseurl }}/assets/img/chain/FPDUUNJH1JUJ149.jpg" alt="Chain Lift">
+            <img src="{{ site.baseurl }}/assets/img/chain/FVGBYTJGP3T0NYZ.jpg" alt="Chain Lift">
         </div>
         <span class="lift-card-text">Chain Lifts</span>
     </a>
