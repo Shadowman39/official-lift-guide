@@ -1,0 +1,403 @@
+/* This file is kept intentionally blank inside the jekyll-github-theme
+ * It gets imported at the end of custom.css
+ * Its purpose is for users of the theme to be able to add css rules from a blank file
+ *   these get simply added to the ones already active in the layout.
+ */
+
+.book .book-body {
+    background: #EBEEF5;
+    transition: left 250ms ease;
+}
+
+/* To fix the white background flash on mobile sidebar transition */
+html, body {
+    background: var(--body-bg-color) !important; /* Match your site’s background */
+    height: 100%;
+    margin: 0;
+  }
+
+/* For the horizontal scrollbox */
+.carousel {
+    height: 74%;
+    width: 100%;
+    /* margin-left: 7.5%; */
+    margin-top: 0.5%;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+.carousel>div {
+    display: inline-block;
+    /* width: 75%; */
+    /* Setting height instead of width removes space between images */
+    height: 74%
+}
+  
+.carousel img {
+    max-width: 100%;
+}
+
+.crop {
+    object-fit: cover;
+}
+
+/* For email spam protection */
+span.blockspam {
+    display: none;
+}
+
+/* For search page */
+/* Can change the color of the search results if desired */
+#book-search-results .search-results .has-results .search-results-item {
+    color: inherit;
+}
+
+#book-search-results span.search-highlight-keyword {
+    color: black;
+}
+
+/* Light theme (default) */
+:root {
+    --search-input-text-color: black;
+    --search-input-bg-color: white;
+    --card-bg-color: #f3f6fa;         /* Default light background */
+    --card-border-color: #ccc;        /* Default light border */
+    --card-text-color: black;         /* Default text color */
+    --body-bg-color: #EBEEF5;
+}
+
+/* Sepia theme */
+.book.color-theme-1 {
+    --search-input-text-color: black;
+    --search-input-bg-color: #f1eddd;
+    --card-bg-color: #f3edd7;         /* Sepia background */
+    --card-border-color: #8b5a2b;     /* Sepia-toned border */
+    --card-text-color: #4a2c0f;       /* Darker sepia text */
+}
+/* :has section needed to go up a level into html/body for the vars */
+html:has(.book.color-theme-1) {
+    --body-bg-color: #f3eacb;
+}
+
+/* Dark theme */
+.book.color-theme-2 {
+    --search-input-text-color: white;
+    --search-input-bg-color: #2b2e3d;
+    --card-bg-color: #2d3143;         /* Dark background */
+    --card-border-color: #4c535d;        /* Darker border */
+    --card-text-color: #bdcadb;         /* White text for dark theme */
+}
+html:has(.book.color-theme-2) {
+    --body-bg-color: #1c1f2b;
+}
+
+#book-search-input-inside input {
+    color: var(--search-input-text-color);
+}
+
+#book-search-input-inside {
+    background-color: var(--search-input-bg-color);
+}
+
+/* Updated card styling */
+.card {
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid var(--card-border-color);
+    border-radius: 10px;
+    background-color: var(--card-bg-color);
+    color: var(--card-text-color);
+}
+
+.card h2 {
+    margin-top: 20px; /* Removes the top margin */
+  }
+
+
+/* For desktop displays only */
+@media (min-width: 769px) {
+  .carousel {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px; /* Add some spacing between grid items */
+    overflow-y: scroll; /* Enable vertical scroll */
+    white-space: normal; /* Allow text wrapping if needed */
+    height: auto; /* Adjust height to content */
+    max-height: 410px; /* Limit height to show only the first row and some of the next */
+    padding-right: 5px; /* Add padding to the right to create space for scrollbar on the left */
+  }
+
+  .carousel>div {
+    display: block; /* Make divs block elements within the grid */
+    height: auto; /* Adjust height to content */
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  .card h2 {
+    margin-top: 2px; /* Reduces the top margin */
+  }
+
+  hr {
+    margin-left: -25px !important;     /* Adjust spacing on the left */
+    margin-right: -25px !important;    /* Adjust spacing on the right */
+  }
+
+  .hero-section {
+    height: 400px;
+  }
+  .swiper {
+    height: 400px;
+  }
+
+  .hero-title-container h1 {
+  font-size: 5rem;
+  }
+}
+
+/* For mobile displays only */
+@media (max-width: 768px) {
+  hr {
+      margin-left: -5px !important;
+      margin-right: -5px !important;
+  }
+
+  /* Lift cards show smaller on mobile */
+  .lift-card {
+      width: 150px !important;
+  }
+
+  .lift-image-wrapper {
+      padding-top: 50% !important; /* Adjust aspect ratio for mobile */
+  }
+
+  #desktop-lift-cards {
+    display: none;
+  }
+  #mobile-lift-cards {
+    display: block; /* Or flex, grid, etc. */
+  }
+
+  /* Adjustments for mobile cards if needed */
+  #mobile-lift-cards .lift-card {
+      width: 150px !important; /* Keep mobile card size consistent */
+  }
+  #mobile-lift-cards .lift-image-wrapper {
+      padding-top: 50% !important; /* Keep mobile aspect ratio consistent */
+  }
+
+  .hero-section {
+    height: 200px;
+  }
+  .swiper {
+    height: 200px;
+  }
+
+  .hero-title-container h1 {
+  font-size: 3rem;
+  }
+}
+
+/* Fix for the sepia theme links */
+.book.color-theme-1 .book-body .page-wrapper .page-inner section.normal a {
+    color: #4183c4;
+}
+
+/* So mobile view fits more on the page */
+.page-inner {
+    padding-left: 12px;
+    padding-right: 2px;
+}
+
+/* Make separators look better */
+hr {
+    border: none !important;           /* Remove default styling */
+    border-top: 1px solid var(--card-border-color) !important; /* Thin 1px border with a light gray color */
+    background-color: transparent !important;
+}
+
+/* Lift Navigation Cards */
+.lift-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px; /* Spacing between cards */
+    justify-content: center; /* Center cards horizontally */
+    margin: 10px 0; /* Add some vertical space around the container */
+  }
+  
+.lift-card {
+    display: block; /* Make the link a block element */
+    padding: 2px; /* Inner spacing - kept from original plan */
+    border: 1px solid var(--card-border-color); /* From your example */
+    border-radius: 10px; /* From your example */
+    background-color: var(--card-bg-color) !important; /* From your example */
+    color: var(--card-text-color); /* From your example */
+    text-align: center;
+    text-decoration: none; /* Remove underline from link */
+    width: 200px; /* Fixed width for consistency */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Subtle shadow */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth hover effect */
+}
+
+.lift-card:hover {
+    transform: translateY(-3px); /* Lift effect on hover */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1); /* Enhance shadow on hover */
+}
+
+.lift-card-text {
+    display: block; /* Ensure text is on its own line */
+    font-weight: 600; /* Make text slightly bolder */
+    font-size: 1em; /* Standard text size */
+    /* Inherits color from .lift-card */
+}
+
+/* Add a wrapper to enforce aspect ratio */
+.lift-image-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 75%; /* Sets the aspect ratio */
+    overflow: hidden;
+}
+
+/* Style the image inside the wrapper */
+.lift-image-wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Crop the image to fill the wrapper */
+    object-position: center; /* Center the image during cropping */
+    margin: 0; /* Remove the margin from the image itself */
+}
+
+/* Adjust the .lift-card img rule to remove the old height */
+.lift-card img {
+    max-width: 100%; /* Ensure image doesn't overflow */
+    display: block; /* Center image */
+    margin: 0 auto 10px auto; /* Space below the wrapper */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Section for the expandable lift cards */
+details > summary {
+    cursor: pointer;
+    list-style: none; /* Remove default arrow */
+    text-align: center; /* Center the text */
+    padding: 10px; /* Add some padding */
+    background-color: var(--card-bg-color); /* Light background color */
+    border: 1px solid var(--card-border-color); /* Add a border */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+  }
+  
+  details > summary:hover {
+    background-color: var(--body-bg-color); /* Darker background on hover */
+  }
+  
+  details[open] > summary {
+    margin-bottom: 10px; /* Add space below summary when expanded */
+  }
+  
+  details > summary::marker {
+    display: none; /* Hide the default marker */
+  }
+  
+  details > summary::before {
+    content: ''; /* Remove the text content */
+    display: inline-block;
+    margin-right: 10px; /* Adjust spacing as needed */
+    border: solid currentColor; /* Set the color of the caret */
+    border-width: 0 3px 3px 0; /* Creates the caret shape (top, right, bottom, left) */
+    padding: 3px;
+    vertical-align: middle;
+    transform: rotate(-45deg); /* Point the caret to the right */
+    transition: transform 0.3s ease; /* Smooth arrow rotation */
+  }
+
+  details[open] > summary::before {
+    transform: rotate(45deg); /* Point the caret down when expanded */
+  }
+  
+  details > * {
+    transition: max-height 0.5s ease-in-out; /* Smooth expand/collapse transition */
+    overflow: hidden; /* Ensure content is hidden during transition */
+  }
+
+/* --- Responsive Lift Card Display --- */
+
+/* Default (Desktop): Show desktop cards, hide mobile cards */
+#desktop-lift-cards {
+  display: block; /* Or flex, grid, etc., depending on its internal layout */
+}
+#mobile-lift-cards {
+  display: none;
+}
+
+.swiper {
+  width: 100%;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  will-change: transform;
+  transform: scale(1); 
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #000;
+  filter: brightness(0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* --- Hero Section Container --- */
+.hero-section {
+  position: relative; /* Establishes a positioning context for the title */
+  width: 100vw;
+  overflow: hidden; /* Prevents anything from spilling out, especially during zoom */
+  background: black;
+}
+
+/* --- Title Styling & Centering --- */
+.hero-title-container {
+  position: absolute; /* Takes the title out of the normal document flow */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10; /* Ensures the title is on top of the slideshow */
+
+  /* Flexbox for perfect vertical and horizontal centering */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Optional: Text styling */
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.hero-title-container h1 {
+  font-weight: bold;
+}
+
+/* --- Hiding Navigation Elements --- */
+.swiper-button-next,
+.swiper-button-prev,
+.swiper-pagination {
+  display: none !important; /* Forcefully hide the navigation and pagination */
+}
+
+.intro-page ::-webkit-scrollbar {
+    width: 0px;
+}

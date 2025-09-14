@@ -1,0 +1,209 @@
+lifts:
+
+  - name: Mill Lift
+    author: "[floris2burn](https://www.instructables.com/member/floris2burn/)"
+    featured: "[Cyclo](http://www.youtube.com/watch?v=jQvJlEohO48)"
+    category: main
+    video: https://youtu.be/um_cgNj9Qbg?si=3h_oUca3fbk1kEa5&t=59
+    instructions: https://www.instructables.com/id/Metropolis-Knex-Ball-Machine-Elements-and-Lifts/step18/Wheel-Lift-The-base/
+    description: These use 2 or 4 spokes on wheels that are linked with gears, and they all typically turn in the same direcion to lift the ball up a track or chute. The most popular version was made by [Kairah](https://www.instructables.com/member/Kairah/) for [Metropolis](https://www.instructables.com/id/Metropolis-a-Knex-Ball-Machine/), which uses smaller wheels and a vertical chute that's easy to integrate into towers. The lift can be made as tall as you want, as long as there's enough motor power.
+    images:
+      - - FVJBN2WG4PBORTI.jpg
+        - The original version from Cyclo
+      - - F374LU6GI0TJEVR.jpg
+        - Kairah's lift used in Metropolis
+      - - FMMRS5EGI0TJEVQ.jpg
+        - 
+      - - F7ZZ7MDGI0TJEVP.jpg
+        - 
+      - - FVCEMI7HLIDBZS7.jpg
+        - A different mill lift used in Citadel, where the wheels spin opposite directions. Best done when no taller than 1-2 red rods.
+
+  - name: Half Height Mill Lift
+    author: "[Mr. Muggle](https://www.instructables.com/member/Mr.%20Muggle)"
+    featured: 
+    category: mill lift
+    video: https://www.youtube.com/watch?v=6JbWcLB7dPQ
+    instructions: https://www.instructables.com/id/Spinning-Push-Lift-a-Knex-Ball-Machine-Lift/
+    description: These use a larger arm that rotates to lift the balls up a curved track, and they exit at the same level as the wheel's axis. There can be two sides to the arm or one side, with the other being a counterweight. One can also have the arm slide to whatever end is lifting the ball, like in [sandroknexmaster's](https://www.instructables.com/member/sandroknexmaster/) version [here](https://www.instructables.com/id/Sliding-Arm-Lift-a-knex-ball-machine-lift/).
+    images:
+      - - FPCK0HZG3CAMF64.jpg
+        - The original version, which has arms connected with chain
+      - - FYH14TIIQ8A5F57.jpg
+        - www139's version, used in Impossible
+      - - FR6UVIFIQ8A58UV.jpg
+        - sandroknexmaster's version, which uses a space-saving sliding arm
+
+  - name: Rotating Arm Lift
+    author: "[I_am_Canadian](https://www.instructables.com/member/I_am_Canadian/)"
+    featured: 
+    category: main
+    video: https://www.youtube.com/watch?v=aIE6VdiuMlA
+    instructions: https://www.instructables.com/id/Knex_Ball_Machine_Lift/
+    description: There are a wide variety of rotating arm lifts of different sizes, but they all differ from mill lifts in that they pick up the balls rather than push them up a track. The balls exit at the top with an inline track right above the arms. -tip- It's easier to have the balls enter parallel to the arm's rotating axis, rather than inline. Lifts that use an inline entrance track often need a gate system, and the other method works without a gate.
+    images:
+      - - FZE8K82G33OZ2E5.jpg
+        - I_am_Canadian's classic lift with four arms
+      - - F1Y97QVH1JUIUMH.jpg
+        - A version by collinjo12
+      - - FQRUT6MG4PBSYXU.jpg
+        - A larger arm lift by smool
+
+  - name: Full Height Mill Lift
+    author: "[MechanicalCreationMaster](https://www.instructables.com/member/MechanicalCreationMaster/)"
+    featured: "[Krypton](https://www.instructables.com/Knex-Ball-Machine-Krypton/)"
+    category: mill lift
+    video: https://youtu.be/yRPAx5CfQBw?si=3OKIbt4qiQK6bSgs&t=35
+    instructions: https://www.instructables.com/id/Center-Arm-Lift-a-knex-ball-machine-lift/
+    description: Similar to the quarter turn mill lift, these take the ball higher up, usually using track pieces placed close to the axis. The one issue is the movement gets unsmooth when the ball exits, since it's essentially being squeezed upward. To avoid that it can be made with Motorized Madness track pieces, like [sathothy](https://www.instructables.com/member/sathothy/) did in [this version](https://www.instructables.com/id/Knex-ballmachine-motorized-madness-circle-lift/).
+    images:
+      - - F5UDXJUHPT94ELI.jpg
+        - The version used in Krypton, with a curved exit track
+      - - FD8ZJJZHPT94ELD.jpg
+        - sandroknexmaster's version, used in Paradox
+      - - FW9IPK7H1JUJQAY.jpg
+        - sathothy's lift made with Motorized Madness track
+
+  - name: Rotating Arm Lift (offset exit)
+    author: "[Shadowman39](https://www.instructables.com/member/Shadowman39/)"
+    featured: "[Wipe Out](http://www.youtube.com/watch?v=p4Y1k7d9vPk)"
+    category: rotating arm lift
+    video: 
+    instructions: 
+    description: The main difference with these lifts is how the balls exit at the top. Usually they are pushed to the side to an offset track, which can be easier to build than an inline exit track since those need to be at an exact level. There are also exits that use arms to catch the ball and release it off to the side, such as the [large rotating arm](https://youtu.be/p4Y1k7d9vPk?si=J4aDJdw5vlhyoSpc&t=20) from Wipe Out (in this case smool's version mentioned previously is the easier way to make a large arm lift). Another method is sandroknexmaster's [ferris wheel lift](https://www.instructables.com/id/Ferris-Wheel-Lift-a-knex-ball-machine-lift/), which uses carriers that tilt to let the ball exit. 
+      <br><br>
+      A different design by sandroknexmaster, the Spinning Freefall Lift, picks up the ball and drops it at the top after it goes down the freefall of the arm to the other side. [Here's the instructions](https://www.instructables.com/Spinning-Free-Fall-Lift-a-new-knex-ball-machine-l/). A similar yet larger design is the [separating arm lift](https://www.instructables.com/Separating-Arm-Lift-a-Knex-Ball-Machine-Lift/), which takes advantage of the freefall aspect by having the ball exit at different levels on each arm. So, this is both a lift and a path separator. There are 8 levels that can lead to different paths. The only downside is that the balls, especially the paths closer to the wheel's axis, lose a lot of height.
+    images:
+      - - FQTI4KTI2AQUNUC.jpg
+        - sandroknexmaster's floor arm lift, which picks up balls directly from a floor
+      - - FAVUG8XGI0TCJ8O.jpg
+        - A <a href='https://www.instructables.com/id/Metropolis-Knex-Ball-Machine-Elements-and-Lifts/'>quadruple arm lift</a> by Kairah, used in Metropolis
+      - - FGM7X2GIQ5PTMFW.jpg
+        - Ferris wheel lift, made by sandroknexmaster for Elysium
+      - - FNR6NVCH1YOB85N.jpg
+        - sandroknexmaster's spinning freefall lift, from Dragonfire
+      - - FVTXEJOJM0V3YRH.jpg
+        - sandroknexmaster's separating arm lift, built for Elysium
+      - - FVZ07XWJM0V3YVY.jpg
+        - A view showing the 8 exit tracks
+
+  - name: Wheel Lift
+    author: "[KageKumo](http://www.youtube.com/user/KageKumo)"
+    featured: "[Knex in the dorm 2008](https://www.youtube.com/watch?v=sKzuVaa2NlY)"
+    category: main
+    video: 
+    instructions: https://www.instructables.com/Knex-Small-Wheel-Lift-1/
+    description: These are similar to full height mill lifts, except the balls are held on the outside of the wheel, making for a smoother exit. A popular version was [the one used in Cataclysm](https://youtu.be/jKbbWwdqmp0?si=CEpeZlsP0fRRLSoD&t=48), which has been built with slight variations over time. However, this one lacked important reliability features so it was later improved with a smaller version used in Citadel (video below). When using smaller wheels there are often multiple wheels linked with chain or gears/rods. Like with the rotating arm lifts, it's better to have the balls enter on a track that's parallel to the wheel's axis of rotation, to avoid needing a gate. 
+
+      <div style="text-align:center;">
+      <iframe width="90%" height="400" src="https://www.youtube.com/embed/lbhkTAO2KqI?si=A7E84KU17vF9fIh6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    images:
+      - - FSM83G6JOCTLFNA.jpg
+        - The small wheel lift used in Citadel V2, from the instructions
+      - - F6TU9WKHLJUZGU2.jpg
+        - An earlier version used in Citadel, which used way too many blue spacers
+      - - FX7VCUZJP4DBO9B.jpg
+        - 
+      - - FXW7X0OHLJUZGU0.jpg
+        - An example of how multiple wheels can be linked
+      - - FO7C1DDG4PBSP7F.jpg
+        - The earlier wheel lift used in Cataclysm
+      - - FITUYPDH2MYJXY1.jpg
+        - Sorunome's wheel lift used in Crazy
+      - - FWRC5JCI2AQUWZ4.jpg
+        - sandroknexmaster's lift used in Revolution
+      - - FZ3XSGWG33OQH3V.jpg
+        - Mr. Muggle's larger wheel lift from Shake
+
+  - name: Internal Wheel Lift
+    author: "[Shadowman39](https://www.instructables.com/member/Shadowman39/)"
+    featured: "[Wipe Out](http://www.youtube.com/watch?v=p4Y1k7d9vPk)" 
+    category: main
+    video: https://www.youtube.com/watch?v=l3-fewrvPl8
+    instructions: https://www.instructables.com/Knex-wheal-lift-with-holes/
+    description: Rather than the balls being held on the oustide of the wheel, in these lifts there are holes within the wheel that carry the balls up, and there is a tilted track to let the balls out. Other ways of letting the ball exit include tilting the whole wheel, like the original in Wipe Out, or having the wheel be thin enough for a piece up top to push it to the exit track, like [this one](https://www.instructables.com/Knex-Wheel-Lift/) by KneXtreme. An advantage of these is that there doesn't need to be a curved track going up, and it's more reliable. But you do need some way of keeping the balls inside on the way up, usually done with a wall that follows the curvature of the wheel or something on the wheel itself on the back. These lifts are often small but they can be made as large as desired. [Here's a larger one](https://www.instructables.com/Large-Knex-weel-lift-with-holes/) made by Sorunome. A different design by TheFoofinator has the balls scooped up and dropped up top, with the scoops being on the inside of the wheel. Instructions for this version are [here](https://www.instructables.com/Knex-Mouse-Wheel-Ball-Machine-Lift-1/).
+    images:
+      - - FC9V32YGUMF7QDL.jpg
+        - KneXtreme's thin wheel lift
+      - - FK7H0FJGELSCAS1.jpg
+        - The lift from the instructions by Sorunome
+      - - FM1IGXRIQ8A5TA1.jpg
+        - A simple wheel lift by NorthenF, an example where the whole wheel is tilted
+      - - FTFH4LLGERP1ANY.jpg
+        - Sorunome's larger internal wheel lift
+      - - FV9T6N7G962DS4M.jpg
+        - Mouse wheel lift, by TheFoofinator
+
+  - name: Ring Lift
+    author: "[Shadowman39](https://www.instructables.com/member/Shadowman39/)"
+    featured: "[Cataclysm](https://www.instructables.com/id/Cataclysm-Knex-Ball-Machine-1/)"
+    category: internal wheel lift
+    video: https://www.youtube.com/watch?v=OuRciwvUy3I
+    instructions: https://www.instructables.com/id/Knex-Ring-Lift-Version-2/
+    description: This is an internal wheel lift, but without a center, which means it can be made larger yet not take up as much room. It has to be secured into a strong tower structure for it to run as smoothly. Chain runs around the outside and grips the wheel, and a motor at the bottom turns the chain.
+    images:
+      - - FS92DABGERP8LGT.jpg
+        - The original lift in Cataclysm
+      - - FOX2S89GFRWMDT7.jpg
+        - 
+      - - F2DDV5JGFRWP16X.jpg
+        - 
+      - - FIUIXSEGFRWME4I.jpg
+        - 
+      - - FNUYB01I95GQQFB.jpg
+        - Sorunome's interlocking ring lifts, used in Dysphoria
+
+  - name: Spiral Wheel Lift
+    author: "[bezempje95](https://www.youtube.com/@bezempje95)"
+    featured: "[Friction](https://youtu.be/IORXha5C7_c?si=IMPmiSMtISIqkTVl)"
+    category: internal wheel lift
+    video: http://www.youtube.com/watch?v=DuPQV5koaBM
+    instructions: https://www.instructables.com/id/Knex-Spiral-Wheel-Lift-2/
+    description: This is a wheel that turns, and a spiral track is on the inside. The balls go up until they reach the center, where they exit the wheel. The original version uses roller coaster track, but a second version by KneXtreme uses normal tubing track. The only issue of these lifts is the ball exits at the center of the wheel rather than the top, so they take up a lot of space in relation to the height that the ball can be lifted.
+    images:
+      - - FSMMYPVGINORIVY.jpg
+        - The original spiral wheel lift, used in Friction
+      - - FKEE2MWGINORIW3.jpg
+        - 
+      - - FHFAJ3VHJKBYNJO.jpg
+        - KneXtreme's spiral wheel lift
+
+  - name: Revolving Ball Machine Lift
+    author: "[mathsboy314](https://www.instructables.com/member/mathsboy314/)"
+    featured: 
+    category: internal wheel lift
+    video: http://www.youtube.com/watch?v=dET0RMmQSZs
+    instructions: https://www.instructables.com/id/How-to-Make-a-Revolving-Ball-Machine/
+    description: This internal wheel lift has parts of a ball machine on the inside that the ball goes through as it rotates. It can be made in any way you want, with elements and tracks on the inside; the video shows three examples. It can also be used as an element or a ball machine just by itself. 
+    images:
+      - - FKIC893HJKBJRAB.jpg
+        - 
+
+  - name: Stacker Lift
+    author: "[bezempje95](https://www.youtube.com/@bezempje95)"
+    featured: "[Gravity](https://www.youtube.com/watch?v=TAsPYw6CTTc)"
+    category: mill lift
+    video: 
+    instructions: 
+    description: This lift stacks balls on top of each other in a chute with a small wheel at the bottom that lifts balls one by one. There is also a rod that keeps the balls from falling back down. This is a simpler way of making a pump lift, but with the same disadvantage of using up a lot of balls. -warning- Don't make the wheel too fast or a ball could get stuck between the wheel and the entrance track.
+    images:
+      - - FGLNY91GNOD67UL.jpg
+        - 
+      - - FARTUKJGNOD67UK.jpg
+        - 
+      - - FBEK5BQGNOD67UJ.jpg
+        - 
+
+  - name: Cardan Gear Lift
+    author: "[Austron](https://www.youtube.com/@Austron)"
+    featured: 
+    category: rotating arm lift
+    video: http://www.youtube.com/watch?v=vwzpHMq5Tw4
+    instructions: 
+    description: This lift uses a mechanism that operates like a cardan gear to have one arm on the end of another, and they rotate at the same speed; at the top and bottom they are colinear. This not only looks cool but saves space to the left and right, since it doesn't need a full arm radius 360 degrees around like a normal rotating arm.
+    images:
+      - - Screenshot 2024-03-29 173207.png
+        - The lift right after it releases a ball
+      - - Screenshot 2024-03-29 173320.png
+        - Loading a ball at the bottom

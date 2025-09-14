@@ -1,0 +1,137 @@
+lifts:
+
+  - name: Single Elevator Lift
+    author: "[Sorunome](http://www.sorunome.de/)"
+    featured: "[Apocalypse](http://www.sorunome.de/knex/ballmachines/apocalypse/)"
+    category: transmission elevator lift
+    video: https://www.youtube.com/watch?v=WiQevg65lCE
+    instructions: 
+    description: These use a single cart on one end of a pulley system and a counterweight on the other. Sorunome's version uses an elevator cart that holds 8 balls. The up and down motion is controlled by a gearbox that has forward and reverse transmission, similar to the twin elevator lift. Levers switch the gearbox when the elevator gets to the top/bottom. In total, the lift uses 34 gears. This version doesn't need tubing like some other designs.
+    images:
+      - - FYQMTR0HKVKM47V.jpg
+        - Sorunome's lift built for Apocalypse
+      - - FKCL03JHKVKM47S.jpg
+        - The cart that holds 8 balls
+      - - FGPESWEHKVKM47R.jpg
+        - Balls are loaded in two rows of 4 each. When the first row fills up, the next balls roll over the last one in the first row to get to the second.
+      - - F447RUZHKVKM47Y.jpg
+        - The counterweight
+
+  - name: Transmission Elevator Lift
+    author: "[Shadowman39](https://www.instructables.com/member/Shadowman39/)"
+    featured: "[Citadel](https://www.instructables.com/Citadel-Knex-Ball-Machine/)"
+    category: main
+    video: 
+    instructions: 
+    description: Most elevator lifts use a forward/reverse transmission to control the up and down motion of the elevator cart. This causes a constant and predictable motion, unlike other methods such as cranks. It's more efficient to have the elevators have two carts; one balances the other out, not needing a counterweight and the lift has double capacity. The first one made for Citadel uses two carts to lift the balls, each one carrying 4 balls. The transmission gearbox is located in the base which makes adjustments easier. There are two reels of fishing line, and the reels are easy to adjust, which helps to combat stretching of the fishing line. This lift runs smoother and faster than other designs, but it uses tubing and the layout of the carts means a complex shaft with orange-tabbed connectors and splicers. It's easier to make the shafts lined up with each other, or perhaps even on different areas in the ball machine. 
+
+      <div style="text-align:center;">
+      <iframe width="90%" height="400" src="https://www.youtube.com/embed/t2ChIcRWzI0?si=ZfkYB3OY6ehC-A4d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <br>
+      A simpler version that uses less pieces and no tubing was made by dickheijboer. The carts each hold 3 balls and the transmission is at the top. It also uses chain which is easier to set up. Plus, this version has [instructions](https://www.instructables.com/Double-chain-elevator-lift-a-Knex-ball-machine-lif/).
+    images:
+      - - FAS23RWHLJV036Y.jpg
+        - The original version during Citadel's construction
+      - - F2B7M2FHLJV037E.jpg
+        - One of the carts, which carry two rows of two balls each and has a sliding gate for releasing them at the top
+      - - FHYUIY7HLJV037N.jpg
+        - The top exit tracks
+      - - IMG_0002_2.jpg
+        - The core elevator shaft uses a lot of pieces, but these can be made with simpler shaft layouts.
+      - - IMG_0002_9.jpg
+        - The balls collect at the bottom, inlcuding overflow tracks
+      - - F03J8DAHLJV037H.jpg
+        - The transmission which controls the elevator direction
+      - - FXX1XOZHLJV036Z.jpg
+        - The reels of fishing line at the bottom
+      - - FXL9C82I2AQU3YU.jpg
+        - dickheijboer's version, built for Intertwined
+      - - FEOBCAWI2AQU3ZC.jpg
+        - The top transmission
+      - - FT69HT7I2AQU3XT.jpg
+        -
+
+  - name: Elevator Freefall Lift
+    author: "[KneXtreme](https://www.instructables.com/member/KneXtreme/)"
+    featured: 
+    category: main
+    video: https://www.youtube.com/watch?v=EVAB1syyKXM
+    instructions: https://www.instructables.com/id/Knex-Elevator-Free-Fall-Lift/
+    description: This lift uses a different mechanism to change directions. It uses a special gear to lift the pulley, and at the top disengages and sends the cart falling back down. The only issues are a crown gear needs some teeth cut off, and it will be slightly off balance if adding a counterweight, since the cart needs to be heavier even without balls so it falls down correctly.
+    images:
+      - - F323YPOH1PISX0E.jpg
+        - 
+      - - F9UQTRIH1LWPRO1.jpg
+        - A view of the cut gear and pulley system
+
+  - name: Crankavator
+    author: "[Andrew Locke](https://www.youtube.com/@pianoman667)"
+    featured: "[Tartarus](https://www.youtube.com/watch?v=XVdp-tj6N3Q)"
+    category: main
+    video: https://www.youtube.com/watch?v=wA0hnM4_J1Q
+    instructions: 
+    description: These use a crank to lift and change the direction of the elevator cart. They can be large cranks, like in the original version in Tartarus, or they can be smaller like [mathsboy314's version](https://www.instructables.com/id/Knex-wheeled-crankshaft-ball-lift/). The larger it gets, the more complex the drive system will be since it needs a lot of torque.
+    images:
+      - - F1S3ZL4HJKC6D0R.jpg
+        - mathsboy314's smaller version
+      - - FIYUFZAHJKC6D0S.jpg
+        - 
+
+  - name: Reversing Chain Elevator Lift
+    author: "[Austron](https://www.youtube.com/@Austron)"
+    featured: 
+    category: main
+    video: https://www.youtube.com/watch?v=9Amieeyb9Cg
+    instructions: https://www.instructables.com/Knex-Automatically-Reversing-Elevator-Lift-by-Aust/
+    description: This elevator changes direction using two chains, and a bar between them is attached to a slider. The slider allows the elevator cart to stay in the same horizontal position, and the bar on the chains is free to move around a normal chain loop. This can be made to hold as many balls as you want, since all you need to do is widen the space between the two chains and modify the track length of the cart. Don't forget to add the counterweight!
+    images:
+      - - FZTZDMQJJ8UCLE9.webp
+        - The version from the instructions, by Mister Gears
+      - - FADJAU9JJ8UCLTZ.webp
+        - Exit track and top gears
+      - - 2025-04-02_11-33-02.png
+        - The original version by Austron, view of the entrance track
+
+  - name: C-pulley Shuttle Lift
+    author: "[knexpert#10829476](https://www.instructables.com/member/knexpert%252310829476/)"
+    featured: 
+    category: reversing chain elevator lift
+    video: 
+    instructions: 
+    description: This is similar to the standard reversing elevator except it uses a shuttle that runs along a C-shaped track. The bar between the chains is attached to a string or chain pulley, with the other end of the string attached to the shuttle.
+    images:
+      - - FASO02TH8TTO72K.jpg
+        - 
+      - - FJRGP6ZH8TTO72U.jpg
+        - 
+      - - FJLRFFRH8TTO717.jpg
+        - The entrance track, which needs a gate that opens when the shuttle arrives
+      - - FWK5ZRMH8TTO71M.jpg
+        - A view of the chains and pulleys
+
+  - name: Telescopic Elevator Lift
+    author: "[Austron](https://www.youtube.com/@Austron)"
+    featured: "[Pandemonium](https://www.youtube.com/watch?v=9zP-rT6LvxA)"
+    category: crankavator
+    video: https://www.youtube.com/watch?v=HcDealm0HP0
+    instructions:
+    description: This elevator uses a crank and chain/string similar to a crankavator, except there are two stages of sliders where the movement of the first stage causes the second stage, mounted onto the first, to move up the same distance. This doubles the travel distance of the elevator cart with less space being used up. This particular version is also designed to get the ball up right next to the ceiling, which isn't very common with other lifts. The crank design is also designed to save space, using a custom-made roller bearing to support just one crank arm, rather than the typical two crank arms on either side.
+      <br>
+      <br>
+      This lift could also use more than two stages, if the sliders are made strong enough. The distance traveled by the ball can be multiplied by however many stages there are. The last image shows a prototype lift I made in 2011, but it's recommended to keep the stages as small and light as possible. This version would have used string and had a cart to hold four balls. The exit track can be tilting like this one or let out like in Austron's when it leaves the black rails.
+
+    images:
+      - - 2025-04-02_11-58-02.png
+        - The elevator at the bottom
+      - - 2025-04-02_11-58-18.png
+        - The elevator at the top
+      - - 2025-04-02_11-59-33.png
+        - A ball being lifted
+      - - 2025-04-02_12-00-49.png
+        - The entrance track and gate, which lets the ball through with timing controlled by the crank
+      - - 2025-04-02_12-02-28.png
+        - The top, where the ball exits right under the ceiling
+      - - IMG_0005.jpg
+        - The earlier, unfinished version that uses three stages and lifts multiple balls
+

@@ -1,0 +1,83 @@
+<div class="page-wrapper" tabindex="-1" role="main">
+    {% if page.cover %}
+        <img src="{{ page.cover }}"
+             width="100%"
+             height="{{ page.cover_height | default: '100%' }}"
+             alt="{{ page.title | escape }}"
+             style="object-fit: cover;"
+        />
+    {% endif %}
+    {% if page.permalink == "/" %}
+    <section class="hero-section">
+        <!-- This div will hold your title -->
+        <div class="hero-title-container">
+            <h1>The Official Guide to Knex Ball Machine Lifts</h1>
+        </div>
+
+        <!-- Slider main container -->
+        <div class="swiper mySwiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="{{ '/assets/img/arm/IMG_1280.JPG' | relative_url }}" alt="Stair-Arm Lift">
+                </div>
+                <div class="swiper-slide">
+                    <img src="{{ '/assets/img/wheel/FSM83G6JOCTLFNA.jpg' | relative_url }}" alt="Small Wheel Lift">
+                </div>
+                <div class="swiper-slide">
+                    <img src="{{ '/assets/img/elevator/F2B7M2FHLJV037E.jpg' | relative_url }}" alt="Elevator Lift Cart">
+                </div>
+                <div class="swiper-slide">
+                    <img src="{{ '/assets/img/wheel/FS92DABGERP8LGT.jpg' | relative_url }}" alt="Ring Lift">
+                </div>
+                <div class="swiper-slide">
+                    <img src="{{ '/assets/img/chain/FSIGYXVGOY3B821.jpg' | relative_url }}" alt="Chainsaw Lift">
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+    {% endif %}
+
+    <div class="page-inner">
+        <div id="book-search-results">
+            <div class="search-noresults">
+                <section class="normal markdown-section">
+                    <!-- Disable title on intro page -->
+                    {% if page.permalink != "/" %}
+                        {% if page.title %}
+                            <h1 id="{{ page.id }}">{{ page.title | escape }}</h1>
+                        {% else %}
+                            <h1 id="{{ page.id }}">{{ site.title | escape }}</h1>
+                        {% endif %}
+                    {% endif %}
+
+                    {{ content }}
+
+                    {%- if jekyll.environment != 'dev' and site.disqushandler -%}
+                        {%- include disqus.html -%}
+                    {%- endif -%}
+                </section>
+            </div>
+
+            {%- include search.html -%}
+        </div>
+    </div>
+</div>
+
+<!-- introduce mathjax support -->
+{% include mathjax.html %}
+
+<!-- introduce per-page mermaid support -->
+{% if page.mermaid %}
+    {% include mermaid.html %}
+{% endif %}
+
+<!-- introduce mathjax support -->
+{% include fixes-chrome-anchors.html %}

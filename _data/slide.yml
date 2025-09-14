@@ -1,0 +1,189 @@
+lifts:
+
+  - name: Stair Lift
+    author: "[Shadowman39](https://www.instructables.com/member/Shadowman39/)"
+    featured: "[Wipe Out](http://www.youtube.com/watch?v=p4Y1k7d9vPk)"
+    category: main
+    video: 
+    instructions: https://www.instructables.com/id/Knex-Stair-Lift/
+    description: Steps at different heights move up and down with a crankshaft to let balls pass from one to the next. You can make it higher with more steps, but I wouldn't go over 5-6 steps. If you need it higher than that, you'll have to use more than one motor. You may also want separate crankshafts in that case. 
+      
+      <div style="text-align:center;">
+      <iframe width="90%" height="400" src="https://www.youtube.com/embed/1WrUwob_8Kk?si=B1WOxtVD0Xd1XA7r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    images:
+      - - FG6T1YSG23UMWH9.jpg
+        - 
+      - - F156JWGG29ZG35J.jpg
+        - 
+      - - FPO6LYIG23UXRQY.jpg
+
+  - name: Pump Lift
+    author: "[Sorunome](https://www.instructables.com/member/Sorunome/)"
+    featured: "[Catastropha](https://www.instructables.com/Knex-Ball-Machine-Catastropha/)"
+    category: main
+    video: https://www.youtube.com/watch?v=WGSzGEZHRug
+    instructions: https://www.instructables.com/id/Knex-Pump-Lift/
+    description: This lift consists of a chute, and balls are pumped up by a sliding mechanism at the bottom, stacking them until the highest one reaches the exit. A one-way gate keeps the balls from falling back down. There is a piston that moves from side to side, which pushes the balls upward. An obvious issue is you can only make it as high as how many balls you have, and most of these balls will be constantly occupying the chute rather than being used in the rest of the machine.
+    images:
+      - - FIDUZJIGINP9S5P.jpg
+        - The original built into Catastropha
+      - - FN17H6WH006ITSF.jpg
+        - The version from the instructions
+      - - FQLTSQ6GINP9SAG.jpg
+        - A view showing the piston
+
+  - name: Tube Claw Lift
+    author: "[martijnb95](https://www.instructables.com/member/martijnb95/)"
+    featured: 
+    category: main
+    video: https://www.youtube.com/watch?v=-wyQGC0oYHg
+    instructions: https://www.instructables.com/id/Tube-Claw-Lift-a-knex-ball-machine-lift/
+    description: This is a lift that uses two alternating sets of claws that go up and down to transfer the ball from one level to the next, and it happens within a vertical shaft. The balls go through a one-way gate to keep them in place between cycles. The original version has one set of claws.
+      <br><br>
+      sandroknexmaster made a version that uses multiple sets of claws, featured in [Elysium](https://www.instructables.com/id/Knex-Ball-Machine-Elysium/). The link to the instructions is above. Keep in mind that it only lifts one ball at a time.
+    images:
+      - - Screenshot 2024-03-29 174202.png
+        - martijnb95's original version (there's more to the lift at the top that isn't shown)
+      - - FJFAYUUIQ8A4ZQX.jpg
+        - sandroknexmaster's version with multiple claws per side
+      - - FEJ6BLJIQ8A4ZQY.jpg
+        - 
+      - - FBSJPZZIQ8A4ZQP.jpg
+        - 
+      - - FZ87T6BIQ8A4ZQR.jpg
+        - 
+
+  - name: Scissor Lift
+    author: "[Sorunome](https://www.instructables.com/member/Sorunome/)"
+    featured: 
+    category: main
+    video: https://www.youtube.com/watch?v=oAiF0iXr92E
+    instructions: https://www.instructables.com/id/Knex-Ball-Lifter-1/
+    description: A platform that carries balls lifts up with a scissor-like mechanism, letting them out the top. It's a bit slow, but it can fit multiple balls on the platform. You can modify it to make it go higher.
+    images:
+      - - FN207NKGFRWQQ7L.jpg
+        - 
+
+  - name: Wedge Lift
+    author: "[martijnb95](https://www.instructables.com/member/martijnb95/)"
+    featured: 
+    category: main
+    video: https://www.youtube.com/watch?v=HCJUV0bkG38
+    instructions: https://www.instructables.com/id/knex-door-lift-instructions/
+    description: This is a type of wedge lift, which push balls on a straight surface with a slanted component, usually 45 degrees, to force the balls upward. This version, called a door lift, uses a wall that goes back and forth with a crank. The balls are lifted on doors that open up and close as the wall wedges the balls against them. This lift is limited in height since it creates a lot of friction.
+    images:
+      - - Screenshot 2024-03-27 150516.png
+        - 
+
+  - name: Push Lift
+    author: "[sandroknexmaster](https://www.instructables.com/member/sandroknexmaster)"
+    featured: "[Paradox](https://www.instructables.com/id/Knex-Ball-Machine-Paradox/)"
+    category: wedge lift
+    video: https://www.youtube.com/watch?v=CnIlNxan4fI
+    instructions: https://www.instructables.com/id/Push-Lift-a-knex-ball-machine-lift/#intro
+    description: This wedge-type lift uses a vertical crankshaft to alternate two sets of pushers. They force the ball upwards against a vertical wall, and the balls go straight up. There's also a gate that releases the balls evenly into the lift. Due to the two sets of pushers, the gearing system gets pretty complex, and the height is also limited due to friction.
+    images:
+      - - F82EHCLHKDHINCM.jpg
+        - 
+      - - FNY7FTNHKDHINCF.jpg
+        - 
+      - - FRW7WXNHKDHINCC.jpg
+        - 
+      - - FFO0KXAHKDHINCK.jpg
+        - 
+
+  - name: Stepper Lift
+    author: Knex
+    featured: "Knex set #32049"
+    category: main
+    video: https://youtu.be/cAcGtEkoCZw?si=f-6SORjQrgykfkcl&t=18
+    instructions: https://www.instructables.com/Retrograde-Knex-Ball-Machine-InstructionsNot-My-/
+    description: This is a classic lift first featured in a Knex set. There are two sides which move up and down, and the ball is switched back and forth between the two sides as it goes up. The original version is made to fit a yellow rod scale, so it might be difficult to place into most machines. It can be made pretty tall, but friction will make it more difficult to operate. To get around this problem you could build the modified stepper lift.
+      <br><br>
+      dickheijboer made a version ([video](https://www.youtube.com/watch?v=a0YkwcHSJwY)) that fits into a blue-rod scale, and has a simpler way to make the balls transfer to the next cart. [Here are the instructions](https://www.instructables.com/id/Up-and-down-lift-a-Knex-ball-machine-lift/).
+    images:
+      - - F2T85LBHEXSS0VO.jpg
+        - An image from knexpert#10829476's instructions
+      - - FXSC7NSHEXSS0WI.jpg
+        - This is a way to fit the lift into a blue-rod scale machine, diagonally.
+      - - FUX6GTDG33OZ11G.jpg
+        - The lift in I_am_Canadian's Twister
+      - - FIM6OW0G33OZ11Y.jpg
+        - A view of the bottom
+      - - F5NS00THPCE7LQ8.jpg
+        - dickheijboer's version
+      - - FNBONS7HPCE7M1G.jpg
+        - 
+
+  - name: Chain Stepper Lift
+    author: "[KneXtreme](https://www.instructables.com/member/KneXtreme/)"
+    featured: 
+    category: stepper lift
+    video: https://www.youtube.com/watch?v=_Qge2w6uT3Q
+    instructions: https://www.instructables.com/id/Knex-Modified-Chain-Stepper-Lift/
+    description: In this lift, the steppers are on small towers that slide up and down on wheels, and chain connects them to the upper lever. The carts that hold the balls flip up, much like an alternator lift, to allow the next cart to take hold. The only issues are it doesn't move very smoothly and uses a lot of gears due to the chain, but one could make a version that leaves the chain out if the upper lever is modified.
+    images:
+      - - F1926RUH1JU59KX.jpg
+        - 
+      - - FSXRHHLH1KHA9R3.jpg
+        - 
+      - - F747FS2H1JUIUZ2.jpg
+        - 
+
+  - name: Alternator Lift
+    author: "[Shadowman39](https://www.instructables.com/member/Shadowman39/)"
+    featured: "[Cataclysm](https://www.instructables.com/id/Cataclysm-Knex-Ball-Machine-1/)"
+    category: main
+    video: 
+    instructions: https://www.instructables.com/id/Knex-Alternator-Lift/
+    description: In this lift, there's a tower in the middle that goes up and down with a crank. Small pins on the lifter take the balls and lift them up a level. Another set of small pins keep the balls from going back down, and both pins pivot out of the way to let balls pass through in one direction. The balls alternate from one side to the other, but stay in the same horizontal position. 
+    
+      <div style="text-align:center;">
+      <iframe width="90%" height="400" src="https://www.youtube.com/embed/wD7RLwJ8I-k?si=2T9mj7QYgBHy7RcP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      -tip- It's better to make this lift with a counterweight; the original version just used rubber bands on the crank and that isn't as effective.
+    images:
+      - - F8S33CWG8C40OQU.jpg
+        - The version in the instructions
+      - - FKBM3V0G8HN791B.jpg
+        - 
+      - - FZWOQI3G8CBY4ET.jpg
+        - 
+      - - FPYOYQPGFRWQ4MV.jpg
+        - The lift built into Cataclysm
+
+  - name: Slider Lift
+    author: "[mathsboy314](https://www.instructables.com/member/mathsboy314/)"
+    featured: 
+    category: alternator lift
+    video: https://www.youtube.com/watch?v=LB3ykR_vr-I
+    instructions: https://www.instructables.com/id/Knex-Slider-ball-lift/
+    description: This lift is similar to the alternator lift, except the original version is tilted 45 degrees and uses less pieces. A crank makes a sliding platform go up and down, and balls get stopped by small bumps in the tower. It can be modified to go higher easily, but keep in mind that it gets more choppy under the load of a lot of balls.
+      There's also a vertical version made by NorthernF.
+    images:
+      - - FNW3GXXJA8JFDI4.jpg
+        - mathsboy314's tilted version
+      - - FWVRX0PIQ8A5X1I.jpg
+        - NorthernF's vertical slider lift
+      - - FK30JKRIQ8A5X11.jpg
+        - 
+      - - FIBOCYPIQ8A5X1G.jpg
+        - 
+
+  - name: Spiral Stepper Lift
+    author: "[sandroknexmaster](https://www.instructables.com/member/sandroknexmaster/)"
+    featured: "[Elysium](https://www.instructables.com/id/Knex-Ball-Machine-Elysium/)"
+    category: stepper lift
+    video: https://www.youtube.com/watch?v=9fPKodBYn4Y
+    instructions: https://www.instructables.com/Spiral-Stepper-Lift-a-Knex-Ball-Machine-Lift/
+    description: With this lift there are four corners, each a set of steppers, that are arranged to make the ball be lifted up along a spiral path. The balls exit each stepper when they get wedged against a pusher, so the steppers are simpler than the original stepper lift.
+    images:
+      - - F722BTAJ7MFERYO.jpg
+        - The lift from the instructions
+      - - FN4XVUPJ7MFERZ7.jpg
+        - A close-up of the steppers
+      - - FU025O5J7MFES2W.jpg
+        - The top mechanism takes up a lot of space, so be sure to plan accordingly.
+      - - F3VVIXJJ7MFES0C.jpg
+        - The double crank at the top which connects to the two sides

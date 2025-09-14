@@ -1,0 +1,67 @@
+lifts:
+
+  - name: Rollerball Lift
+    author: "[RCManiac31](http://www.youtube.com/user/rcmaniac31)"
+    featured: "[Mission to Mars](http://www.youtube.com/watch?v=n84QHHVpax8)"
+    category: main
+    video: https://www.youtube.com/watch?v=Us-PH6Jt0Mw
+    instructions: 
+    description: This lift is made of a roller coaster car and track, and the car has a bucket that holds the ball. The ball falls in the bucket and is lifted up the chain lift on the lift hill. The original version uses a Screamin' Serpent car and track, and there is also a [version by mathsboy314](https://www.instructables.com/id/Knex-micro-rollerball-lift-1/) which uses micro coaster track. With the micro version, the car pushes the balls up the track rather than carrying the balls.
+    images:
+      - - FS8V16CG3CAMF7B.jpg
+        - The original version rebuilt by Mr. Muggle for Power Tower
+      - - FXRABWHG3CAMF9U.jpg
+        - 
+      - - FLSG9IYG3CAMF9T.jpg
+        - 
+      - - FTI1C90HIXCG4F7.jpg
+        - mathsboy314's micro version
+      - - FYZ436ZHIXCG4F6.jpg
+        -
+      - - FQX6WPPHIXCG4F8.jpg
+        - A view of the pusher at the top which makes the ball exit
+
+  - name: Car Lift
+    author: "[therealkeggore](https://www.instructables.com/member/therealkeggore/)"
+    featured: 
+    category: main
+    video: https://youtu.be/CuSqWb34mg8?si=2zYVKG9vQFt8GYTs&t=38
+    instructions: https://www.instructables.com/id/Knex-Ball-Machine-Lithium-w-instructions/
+    description: Balls are carried by cars, which go around a continuous track, and part of it slopes up so the cars can get to the top. The ball gets out of the car by the cart it's in being tipped over. The cars are able to go back down much faster. The original version by Keggore no longer has a video, but KneXtreme remade it for the ball machine Lithium, including instructions.
+    images:
+      - - FRZ6EK2H1JUHIHZ.jpg
+        - The lift used in Lithium
+      - - FFDV8RJH1LWQK34.jpg
+        - 
+      - - FUVFVDGH1JUHII0.jpg
+        - 
+
+  - name: Car Back-roll Lift
+    author: "[Thibault Art](https://www.instructables.com/member/Thibault+Art/)"
+    featured: 
+    category: rollerball lift
+    video: http://www.youtube.com/watch?v=3o5IGtNmEIQ&feature=youtu.be
+    instructions: 
+    description: This is similar to a rollerball lift, except it uses original roller coaster-style track and car, and the track isn't a continuous loop. Instead, the car falls back down the lift hill after the ball exits at the top. The car rolls through a half-pipe and back to the beginning. It's held in by a one-way gate that gets lowered when it rolls backwards.
+    images:
+      - - Screenshot 2024-03-29 164232.png
+        - A view of the car and ball being lifted with the chain
+      - - Screenshot 2024-03-29 164438.png
+        - The bottom with the entrance and gate system
+      - - Screenshot 2024-03-29 164531.png
+        - A view of the car rolling backwards, just before everything resets
+
+  - name: Rollercoaster Ring Lift
+    author: "[sandroknexmaster](https://www.instructables.com/member/sandroknexmaster/)"
+    featured: "[Elysium](https://www.instructables.com/id/Knex-Ball-Machine-Elysium/)"
+    category: rollerball lift
+    video: https://www.youtube.com/watch?v=66SGoexHlZ8
+    instructions: https://www.instructables.com/Rollercoaster-Ring-Lift-a-Knex-Ball-Machine-Lift/
+    description: This lift uses custom cars to fit onto rollercoaster track, and the track is shaped like a ring. Chain that goes along the track lifts the two carts, with the balls going into them like the rollerball lift. Since it's shaped like a ring you can have elements/tracks in the center, so it doesn't take up as much room.
+    images:
+      - - FVQLTBEJLQUWODW.jpg
+        - 
+      - - F0HEHTGJLQUWOKV.jpg
+        - 
+      - - FWTVSXVJLQUWOM1.jpg
+        - A view of the exit track

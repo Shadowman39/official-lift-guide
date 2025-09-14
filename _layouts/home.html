@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+
+        {%- include head.html -%}
+
+        {% assign reversed_posts = site.posts | reverse %}
+
+        {% if reversed_posts %}
+            <link rel="next" href="{{site.baseurl}}{{reversed_posts.first.url}}" />
+        {% endif %}
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    </head>
+    <body class="{% if page.permalink == '/' %}intro-page{% endif %}">
+        <div class="book">
+            {%- include toc-date.html -%}
+
+            <div class="book-body">
+                <div class="book-header" role="navigation">
+                    <!-- Title -->
+                    <h1>
+                        <i class="fa fa-circle-o-notch fa-spin"></i>
+                        {% if page.title %}
+                            <a href="." >{{ page.title | escape }}</a>
+                        {% else %}
+                            <a href="." >{{ site.title | escape }}</a>
+                        {% endif %}
+                    </h1>
+                </div>
+
+                <div class="body-inner">
+                    {%- include body.html -%}
+
+                    <a href="{{site.baseurl}}/" class="navigation navigation-pre navigation-unique">
+                        <i class="fa"></i>
+                    </a>
+
+                    <!-- This is disabled to prevent arrows and navigation blocks on the intro -->
+                    {% comment %}
+                    {% if reversed_posts %}
+                        <a href="{{site.baseurl}}{{reversed_posts.first.url}}" class="navigation navigation-next navigation-unique" aria-label="Next page: {{reversed_posts.first.title}}">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    {% endif %}
+                    {% endcomment %}
+                </div>
+            </div>
+
+            <script>
+            var gitbook = gitbook || [];
+            gitbook.push(function() {
+                gitbook.page.hasChanged({%- include metadata-home.json.tpl -%});
+            });
+            </script>
+        </div>
+
+        {%- include footer.html -%}
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                // --- Core Behavior ---
+                loop: true,
+                autoplay: {
+                    delay: 6000, // 6s per slide
+                    disableOnInteraction: false,
+                    // Add a pause on mouse enter for better usability
+                    pauseOnMouseEnter: true, 
+                },
+
+                // --- Transition Effect ---
+                effect: "fade",
+                fadeEffect: {
+                    crossFade: true // Enables a smooth crossfade instead of fading to white
+                },
+                
+                // --- Speed ---
+                speed: 1500, // Duration of the crossfade transition in ms
+
+                // --- Disable Unwanted Features ---
+                navigation: false, // Explicitly disable navigation
+                pagination: false, // Explicitly disable pagination
+                allowTouchMove: false, // Optional: disable manual dragging on desktop/mobile
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,124 @@
+lifts:
+
+  - name: Catapult Lift
+    author: "[bezempje95](https://www.youtube.com/@bezempje95)"
+    featured: "[Ejection](http://www.youtube.com/watch?v=H9GLpXMzysc&feature=player_embedded#%21)"
+    category: main
+    video: https://www.youtube.com/watch?v=lVaSnWkpGpU
+    instructions: https://www.instructables.com/id/Jump-Lift-a-knex-ball-machine-lift/
+    description: This lift uses a catapult-like mechanism to launch balls from a starting point to a basket. It does this with a rubber band and a spinning component to build up power and then release to launch the ball. You can always adjust the tension in the rubber bands to build up more power, but it will need a stronger motor or gearing down until it can function well. 
+      <br><br>
+      A newer and more compact version (instructions above) was made by sandroknexmaster, which was featured in [Paradox](https://www.instructables.com/id/Knex-Ball-Machine-Paradox/). Since it's small it's often used underneath floors. Keep in mind that the lift will push the line of balls in the entrance track back a bit, so you won't want too many balls lined up there.
+    images:
+      - - FPOVVGXGIH8NHLB.jpg
+        - bezempje95's original version, which launches the newer Knex balls
+      - - F6BUXFCGIH8NHLF.jpg
+        - Notice the use of two motors.
+      - - FJ7KUC7GIH8NHLE.jpg
+        - 
+      - - F7ANQ0UHQ1E0AUG.jpg
+        - sandroknexmaster's jump lift
+      - - FNP5YQ5HQ1E0AUH.jpg
+        - 
+
+  - name: Bending Rod Launcher
+    author: "[RNB](https://www.instructables.com/member/RNB/)"
+    featured: 
+    category: catapult lift
+    video: https://www.youtube.com/watch?v=Xdk1yoYeILI
+    instructions: https://www.instructables.com/Knex-Bending-Rod-Launcher/
+    description: This lift launches balls with a catapult mechanism, except it uses a bending rod to build up tension rather than a rubber band. Flexible pins hold the ball in place while the rod gets bent until there is enough force to push it through. This lift is convenient because you don't have to worry about getting the correct rubber band with the right thickness, and it is easier to maintain since rubber bands wear out. As stated in the instructions, that version can launch 6 balls per minute and launch them 2.5 red rods high. -warning- The rod needs to be detensioned (not bent) when not in use or it may permanently deform. It's ideal to turn the lift off right after it launches a ball.
+    images:
+      - - FF8YHY2IGWLWVSM.jpg
+        - 
+      - - FMWIA4IIGWLWVW9.jpg
+        - 
+      - - FK1XN1MIGWM5GNJ.jpg
+        - There can be a launch track, jump, or even a loop to launch the balls through
+      - - F31YZRDIGWM5C5G.jpg
+        - The flexible pins that make the rod build up tension
+
+  - name: Jump Arm Lift
+    author: "[Thibault Art](https://www.instructables.com/member/Thibault+Art/)"
+    featured: 
+    category: catapult lift
+    video: https://www.youtube.com/watch?v=EU2VyQYTMSQ
+    instructions: https://www.instructables.com/id/knex-jump-arm-lift/
+    description: This lift is a hybrid of an arm lift and a catapult-type lift. It uses the movement of the arm to bring back the catapult part, and when the arm goes back up the catapult is released.
+    images:
+      - - F6GXL7YI2AQTRUK.jpg
+        - 
+      - - FWSBVPDI2AQTRSK.jpg
+        - 
+      - - F8SQX5JI2AQTRTH.jpg
+        - 
+      - - F23WRCXI2AQTRVY.jpg
+        - 
+
+  - name: Hammer Lift
+    author: "[RNB](https://www.instructables.com/member/RNB/)"
+    featured: 
+    category: main
+    video: https://www.youtube.com/watch?v=pb1iMWnyieI
+    instructions: https://www.instructables.com/id/Knex-Hammer-Lift/
+    description: This lift uses a heavy rotating arm, the hammer, to send balls up an incline. It spins around continuously, and when it gets to the top a ratchet allows it to fall with gravity quickly, which collides with the ball at the bottom.
+      <br><br>
+      There is [another version](https://www.youtube.com/watch?v=grLBipSlifM) by KneXtreme, called the kick lift, that's a similar concept but is more powerful. It also has a gate at the start to allow only one ball at a time. The more powerul it is, the slower it will be to lift unless you use a stronger motor.
+    images:
+      - - F1RLK96G8QJRKHF.jpg
+        - RNB's original hammer lift
+      - - F5DCQLLG8QJJCZA.jpg
+        - 
+
+  - name: Wheel Launcher
+    author: "[Shadowman39](https://www.instructables.com/member/Shadowman39/)"
+    featured: "[Cataclysm](https://www.instructables.com/id/Cataclysm-Knex-Ball-Machine-1/)"
+    category: main
+    video: https://youtu.be/jKbbWwdqmp0?si=OyB3cy6pMcEB98_Z&t=43
+    instructions: 
+    description: This lift launches the ball with the use of two wheels. The motors, battery pack, switch, and wheels were taken out of a Rippin' Rocket power booster. Silver spacers are placed around the edge of the wheels, and they're taped over with a layer of clear tape and electrical tape. Rubber bands on the outside of the wheels add grip and power. This original version isn't really recommended since it's a pain to build and create the wheel with all the tape. 
+      <br>
+      <br>
+      Instead, you could make [Tornado96's micro ball launcher](https://www.instructables.com/id/Knex-Micro-Ball-Launcher-Lift/), which uses the micro power booster included in the Lava Launch set (and others). It has slightly less power, but the booster doesn't have to be dismantled and only requires slight modifications, covered further in the instructions (this doesn't ruin the booster so it can still be used for roller coasters in the future). A cool thing about wheel launchers is that it doesn't need to build up power like the other types of launching lifts, so balls can be fed in pretty much one after the other.
+    images:
+      - - FPV41MWG4JV6SAT.jpg
+        - The original version used in Cataclysm
+      - - F0V159IGFRWMDHL.jpg
+        - Bottom of the launch track
+      - - FIX6TAFGFRWP17T.jpg
+        - 
+      - - FO8CL2PG4PBWUJS.jpg
+        - Showing the inside of the wheels, with the spacers and tape layers
+      - - FGNVX8YG962KOE8.jpg
+        - Tornado96's micro booster launcher
+      - - FJFMT6JG962KOE6.jpg
+        - An example of how the ball can exit the launch track
+
+  - name: Launching Arm Lift
+    author: "[Austron](https://www.youtube.com/@Austron)"
+    featured: 
+    category: hammer lift
+    video: 
+    instructions: 
+    description: This lift is a bit similar to the hammer lift, except the arm that launches the ball doesn't go all the way around. The arm's power comes from a rubber band. There is a series of gears that makes everything be powered by one motor, including a small arm that deposits the balls into the launching chute. This type of lift saves on space compared to a normal hammer lift, but it requires more complex gearing; you'll need to either cut teeth from a crown gear or use one of the [orange gears](https://shop.knexusergroup.org.uk/cdn/shop/files/K91700.jpg?v=1729750182&width=300).
+    images:
+      - - F59YEX5GI0TMJNC.jpg
+        - 
+      - - FEPYPG5GI0TMJNB.jpg
+        - The cut crown gear that's needed to let the arm launch
+
+  - name: Air Lift
+    author: Knex
+    featured: Big Air Ball Tower
+    category: main
+    video: 
+    instructions: 
+    description: This is the air motor and tube lift from the Knex set Big Air Ball Tower. It only works with the newer balls, and it requires two balls in order to lift one ball through the tube. This is one of the fastest Knex lifts, as far as how long it takes for a ball to reach from bottom to top.
+    images:
+      - - FE6XA7GHJKBN2EK.jpg
+        - Pictures of the Big Air Ball Tower by Sorunome
+      - - FJGGM2QHJKBN1VV.jpg
+        - A ball in transit
+      - - FBWEH1HHJKBN2DI.jpg
+        - 
+

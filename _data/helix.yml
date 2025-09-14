@@ -1,0 +1,60 @@
+lifts:
+
+  - name: Standard Helix Lift
+    author: Knex
+    featured: "Knex set #32049"
+    category: main
+    video: 
+    instructions: https://www.instructables.com/id/Knex-Double-Helix-Lift/
+    description: First used in a Knex set, the helix lift is one of the most popular lifts aside from the chain lift. The original used a helix made of orange flexi-rods (a video can be seen [here](https://youtu.be/ojZuPWjf7fc?si=LD2kso5yAejN-FHW&t=51)). It was later improved with the version in Wipe Out, which is also known as a double helix lift. It uses tubing placed in dark grey connectors and runs smoother, and lifts twice the balls due to the double helix. The helix structure was later improved with Tornado96's machine, [Uprising](https://www.instructables.com/id/Knex-Ball-Machine-Uprising/). 
+
+      <div style="text-align:center;">
+      <iframe width="90%" height="400" src="https://www.youtube.com/embed/c0oEc7cmQGU?si=otZqnHezprk-aoLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      -warning- Even with the improved helix, this lift can't be made very tall since the helix can only be held in at the top and bottom of the tower.
+    images:
+      - - FQ4AJVTFX55745V.jpg
+        - The double helix lift from the instructions
+      - - FB9XI9ZFX557NYW.jpg
+        - 
+      - - FV9XMZCFX8OUTY6.jpg
+        - 
+      - - FUIEGRGHLOC7R1U.jpg
+        - The version from Uprising, by Tornado96, which uses a stronger helix
+
+  - name: Inverted Helix Lift
+    author: "[Shadowman39](https://www.instructables.com/member/Shadowman39/)"
+    featured: "[Cataclysm](https://www.instructables.com/id/Cataclysm-Knex-Ball-Machine-1/)"
+    category: main
+    video: 
+    instructions: https://www.instructables.com/Knex-Industrial-Helix-Lift/
+    description: Instead of the helix spinning in the center, the tower spins in the center, with the helix outside. This lift is much more efficient than the traditional single/double helix lift, because it can be made taller, since the tower in the middle is stronger than a helix (I wouldn't go more than 4 feet tall). An improved design, version 2, was made for Citadel V2.
+
+      <div style="text-align:center;">
+      <iframe width="90%" height="400" src="https://www.youtube.com/embed/Bfko5arZGdI?si=P-RaO3t7stYb7yjO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      -tip- If made slow enough, you can use only one strand of tubing instead of two. More info can be found in the instructions.
+    images:
+      - - FBAGWRUGI0TMC01.jpg
+        - Version 1 of the inverted helix lift, from Cataclysm
+      - - FYHMQW6GI0TJT1O.jpg
+        - 
+      - - F6BG8QTGFRWQO6W.jpg
+        - The lift used in Cataclysm
+      - - F7YA4S6HJKBN2BP.jpg
+        - A single-strand version by Sorunome
+      - - FRWD1HRJOEW6MQN.jpg
+        - The improved version 2 from the instructions
+      - - FC15M0NJPADXT8G.jpg
+        - The version used in Citadel V2, similar to V2 from the instructions. This one had an enclosed tower for even better reliability, and a single tubing strand. 
+
+  - name: Tower Helix Lift
+    author: "[Sorunome](https://www.instructables.com/member/Sorunome/)"
+    featured: "[Catastropha](https://www.instructables.com/id/Knex-Ball-Machine-Catastropha/)"
+    category: standard helix lift
+    video: https://youtu.be/BDnZJ02MqjA
+    instructions: 
+    description: It's similar to a regular helix lift but the tower around the helix spins, and the helix is stationary. This requires a smaller helix which isn't as strong or smooth as the original.
+    images:
+      - - FUNJSGLGPVEVS6Z.jpg
+        - The lift in Catastropha

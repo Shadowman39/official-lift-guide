@@ -1,0 +1,114 @@
+lifts:
+
+  - name: Standard Chain Lift
+    author: Knex
+    featured: Big Ball Factory
+    category: main
+    instructions: 
+    video: 
+    description: This is the most familiar lift since it is in most of the original ball machine sets by Knex, such as the Big Ball Factory and Trampoline Tower. It's simple and piece-friendly, but isn't very unique.
+      <br>
+      <br>
+      Another type, a [Chain Path Lift](https://youtu.be/jKbbWwdqmp0?si=SljpnDrFpv4mlfRZ&t=82) (featured in [Cataclysm](https://www.instructables.com/id/Cataclysm-Knex-Ball-Machine-1/)), doubles as a chain path element at the top, and the ball lands in a basket at the end. Just be careful about how long it sits there, since the horizontal chain stretches more than a vertical one.
+    images:
+      - - FBFC4M8G4PBSP9Q.jpg
+        - Chain Path Lift in Cataclysm
+      - - FMKOBOSG4PBSP9P.jpg
+        - A view of the chain path
+      - - FZYWGUPG4PBSP9M.jpg
+        - The basket at the top
+      - - FUHIBPJG4PBSP9I.jpg
+        - Bottom view, of the entrance track
+
+  - name: Chainsaw Lift
+    author: "[Shadowman39](https://www.instructables.com/member/Shadowman39/)"
+    featured: "[Cataclysm](https://www.instructables.com/id/Cataclysm-Knex-Ball-Machine-1/)"
+    category: main
+    description: These use a chain that goes along a track or gears for guidance, and the holders for the balls are usually smaller. They can be more reliable since the balls can't fall off the chain, and also more versatile with different layouts that can be made. There are different track styles you can use as well, such as using tubing to make it smoother or having a solid track underneath. There are also different styles of hooks that fit on the chain. The [second version](https://www.instructables.com/id/Versatile-Chainsaw-Lift-a-Knex-Ball-Machine-Lift/) uses a slightly different layout and claws.
+    images:
+      - - FTRR47SGFRWQ4OG.jpg
+        - The chainsaw lift in Cataclysm
+      - - FSIGYXVGOY3B821.jpg
+        - A chainsaw lift used in <a href='https://www.instructables.com/Knex-Ball-Machine-TurnPike/'>Turnpike</a>, by I_am_Canadian (tubing not shown)
+      - - FVGBYTJGP3T0NYZ.jpg
+        - A view with tubing installed. This track is made more solid than just two rails for looks.
+      - - FLABBK5IQ8A5KGF.jpg
+        - www139's version, used in Impossible
+
+  - name: Inverted Chainsaw Lift
+    author: "[Sorunome](https://www.instructables.com/member/Sorunome/)"
+    featured: "[Catastropha](https://www.instructables.com/Knex-Ball-Machine-Catastropha/)"
+    category: chainsaw lift
+    description: The chain is above the track in these lifts, and this allows for different directions such as vertical and 45 degrees. The only issue is the chain can sag, since it no longer has the track right below it like in the non-inverted chainsaw lift.
+    images:
+      - - F4O1LLAGIH8NCHR.jpg
+        - shadowninja31's vertical inverted version
+      - - FR30O6IGIH8NCHU.jpg
+        - A view of the bottom
+      - - FWQQBC1HR9V845T.jpg
+        - Sorunome's multi-direction lift, which goes vertical, 45 degrees, and changes into a normal chainsaw. Built for Apocalypse.
+
+  - name: Semi-circle Lift
+    author: "[Tornado96](https://www.instructables.com/member/Tornado96/)"
+    featured: "[Dragon Level](https://www.instructables.com/id/Dragon-Gem-Knex-Ball-Machine/)"
+    category: alternate chain lift
+    instructions: https://www.instructables.com/id/Knex-Semi-Circle-Lift/
+    description: This chain lift runs along a guide that is a semi-circle, and the balls balance on the chain rather than needing a wide track. It can be made different sizes as seen in the photos.
+    images:
+      - - FPPZSBMH1PISWVW.jpg
+        - The original semi-circle lift
+      - - FPDUUNJH1JUJ149.jpg
+        - Sorunome's version, which is larger, built for Dystopia
+
+  - name: Alternate Chain Lift
+    author: "[floris2burn](https://www.instructables.com/member/floris2burn/)"
+    featured: "[Cyclo](https://www.instructables.com/id/CYCLO/)"
+    category: main
+    instructions: https://www.instructables.com/id/Cyclo-knex-ball-machine-elements/
+    description: These are alternate designs from the standard. Floris2burn's uses a track to keep the ball in place and the chain can go in different directions, since the gears are placed to allow the ball claw to pass through. 
+    images:
+      - - FTHRPWVG4UH8T3D.jpg
+        - The version used in Cyclo
+      - - FKA9XF8G4UH8T3C.jpg
+        - 
+      - - FQFTIB9G4UH8T3B.jpg
+        - 
+
+  - name: Guided Chain Lift
+    author: "[Shadowman39](https://www.instructables.com/member/Shadowman39/)"
+    featured: 
+    category: standard chain lift
+    video: 
+    instructions: 
+    description: This is a chain lift designed to be more reliable by having the ball lifters be guided by a track, much like an elevator cart. They are held in place in all directions using angled tracks and head cap pieces. It also uses two loops of chain to resist stretching and keep the lifters level. Like a normal chain lift, the chains still need to be tensioned with idler gears. -tip- It's best to power the top gears from both sides instead of only one side, to make sure both chains share equal tension.
+    images:
+      - - IMG_1685.JPG
+        - The lift installed on my Lobby Ball Machine (front view looking down)
+      - - IMG_1689.JPG
+        - The back, showing the idler gears
+      - - IMG_1654.JPG
+        - Angled tracks
+      - - IMG_1663.JPG
+        - One of the lifters taken out of the tower
+      - - IMG_1667.JPG
+        - The top (without chain)
+      - - IMG_1676.JPG
+        - Entrance area
+      
+
+  - name: 
+    author: 
+    featured: 
+    category: 
+    video: 
+    instructions: 
+    description: 
+    images:
+      - - 
+        - 
+      - - 
+        - 
+      - - 
+        - 
+      - - 
+        - 

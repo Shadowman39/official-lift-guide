@@ -1,0 +1,33 @@
+.lightbox .lb-image {
+  display: block;
+  height: auto;
+  max-width: inherit;
+  max-height: none;
+  border-radius: 3px;
+  border: 4px solid #1C1F2B;
+}
+
+.lb-outerContainer {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 4px;
+  background-color: #1C1F2B;
+}
+
+.lb-cancel {
+  display:block;
+  width:32px;
+  height:32px;
+  margin:0 auto;
+  background:url(https://i.pinimg.com/originals/e2/63/00/e26300c0c746d3163a0f48223c897cee.gif) no-repeat
+}
+
+#lightbox .lb-nav a.lb-prev,
+#lightbox .lb-nav a.lb-next {
+  opacity: 0.8 !important; /* Make arrows more visible */
+  width: 40% !important; /* Larger tap area for mobile */
+  height: 100% !important; /* Full height for easier tapping */
+  background-size: 20px !important; /* Larger arrow icons */
+}
