@@ -64,6 +64,7 @@ span.blockspam {
     --card-border-color: #ccc;        /* Default light border */
     --card-text-color: black;         /* Default text color */
     --body-bg-color: #EBEEF5;
+    --darker-body-bg-color: #E1E4EB;
 }
 
 /* Sepia theme */
@@ -73,6 +74,7 @@ span.blockspam {
     --card-bg-color: #f3edd7;         /* Sepia background */
     --card-border-color: #8b5a2b;     /* Sepia-toned border */
     --card-text-color: #4a2c0f;       /* Darker sepia text */
+    --darker-body-bg-color: rgb(17, 17, 17);
 }
 /* :has section needed to go up a level into html/body for the vars */
 html:has(.book.color-theme-1) {
@@ -86,6 +88,7 @@ html:has(.book.color-theme-1) {
     --card-bg-color: #2d3143;         /* Dark background */
     --card-border-color: #4c535d;        /* Darker border */
     --card-text-color: #bdcadb;         /* White text for dark theme */
+    --darker-body-bg-color: rgb(45, 49, 67);
 }
 html:has(.book.color-theme-2) {
     --body-bg-color: #1c1f2b;
@@ -400,4 +403,74 @@ details > summary {
 
 .intro-page ::-webkit-scrollbar {
     width: 0px;
+}
+
+/* Container to center the buttons */
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1000px; /* Keep buttons from spreading too wide on huge screens */
+    margin: 0 auto;    /* Center the container */
+    margin-bottom: 28px; 
+    padding-top: 10px;
+}
+
+/* The Buttons */
+.btn-hero {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none !important;
+    border-radius: 50px;
+    transition: all 0.2s ease-in-out;
+    
+    /* Button Colors */
+    background-color: var(--card-bg-color) !important;
+    color: #ffffff;
+    backdrop-filter: blur(5px);
+    border: 1px solid var(--card-border-color);
+    
+    /* Modern soft shadow */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.08);
+}
+
+.btn-hero i {
+    margin-right: 10px;
+    color: #4facfe; /* Light blue accent for icons */
+}
+
+/* Hover Effects */
+.btn-hero:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 15px rgba(79, 172, 254, 0.4); /* Glow effect */
+    border-color: #ffffff;
+}
+
+.btn-hero:active {
+    transform: translateY(0);
+}
+
+.intro-box {
+    /* Use the card background variable for automatic Dark Mode support */
+    background-color: var(--card-bg-color);
+    color: var(--card-text-color);
+    border: 1px solid var(--card-border-color);
+    
+    /* Modern box styling */
+    padding: 25px 30px;
+    border-radius: 12px;
+    font-size: 1.1em; /* Slightly larger text for the intro */
+    line-height: 1.6;
+    text-align: left; /* or center, if you prefer */
+    
+    /* Left accent border to make it look like a featured element */
+    border-left: 5px solid #4183c4; 
+    
+    /* Subtle shadow */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }

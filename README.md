@@ -4,8 +4,19 @@ title: The Official Guide to Knex Ball Machine Lifts
 permalink: /
 ---
 
+<div class="hero-buttons">
+    <a href="{{ '/about/about' | relative_url }}" class="btn-hero">
+        <i class="fa fa-info-circle"></i> About
+    </a>
+    <a href="{{ '/about/contact' | relative_url }}" class="btn-hero">
+        <i class="fa fa-envelope"></i> Contact
+    </a>
+</div>
+
+<div class="intro-box">
 
 Knex Ball Machines can have many unique types of lifts; they're one of the best ways to add interest and constant movement to a ball machine. This guide will help you if you're wanting to build one yet need some inspiration from existing designs. It also serves as a database of lift types for future reference, since new lifts are still being built. Most of these lifts include instructions, along with the builder and examples of ball machines which used the lifts. Also included are design tips and warnings to help prepare you for building a certain lift.
+</div>
 
 <br><br><br>
 
