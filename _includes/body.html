@@ -16,15 +16,27 @@
 
         <!-- Container for JS Slideshow -->
         <div id="js-slideshow" class="hero-slideshow-container">
-            <!-- 
-               Note: We use standard IDs or simple indexing in JS. 
-               All images start hidden via CSS. 
-            -->
-            <img src="{{ '/assets/img/arm/IMG_1280.JPG' | relative_url }}" alt="Stair-Arm Lift" class="slide-img">
-            <img src="{{ '/assets/img/wheel/FSM83G6JOCTLFNA.jpg' | relative_url }}" alt="Small Wheel Lift" class="slide-img">
-            <img src="{{ '/assets/img/elevator/F2B7M2FHLJV037E.jpg' | relative_url }}" alt="Elevator Lift Cart" class="slide-img">
-            <img src="{{ '/assets/img/wheel/FS92DABGERP8LGT.jpg' | relative_url }}" alt="Ring Lift" class="slide-img">
-            <img src="{{ '/assets/img/chain/FSIGYXVGOY3B821.jpg' | relative_url }}" alt="Chainsaw Lift" class="slide-img">
+            
+            <div class="slide-wrapper">
+                <img src="{{ '/assets/img/arm/IMG_1280.JPG' | relative_url }}" alt="Stair-Arm Lift" class="slide-img">
+                <a href="/official-lift-guide/lifts/arm-lifts/#stair-arm-lift" class="slide-link">Stair-Arm Lift</a>
+            </div>
+
+            <div class="slide-wrapper">
+                <img src="{{ '/assets/img/wheel/FSM83G6JOCTLFNA.jpg' | relative_url }}" alt="Small Wheel Lift" class="slide-img">
+                <a href="/official-lift-guide/lifts/wheel-lifts/#wheel-lift" class="slide-link">Small Wheel Lift</a>
+            </div>
+
+            <div class="slide-wrapper">
+                <img src="{{ '/assets/img/elevator/F2B7M2FHLJV037E.jpg' | relative_url }}" alt="Elevator Lift Cart" class="slide-img">
+                <a href="/official-lift-guide/lifts/elevator-lifts/#transmission-elevator-lift" class="slide-link">Elevator Lift</a>
+            </div>
+
+            <div class="slide-wrapper">
+                <img src="{{ '/assets/img/wheel/FS92DABGERP8LGT.jpg' | relative_url }}" alt="Ring Lift" class="slide-img">
+                <a href="/official-lift-guide/lifts/wheel-lifts/#ring-lift" class="slide-link">Ring Lift</a>
+            </div>
+
         </div>
     </section>
     {% endif %}

@@ -11,12 +11,11 @@ function initHeroSlideshow() {
     // 2. CHECK: Do we have a slideshow on this specific page?
     var container = document.getElementById('js-slideshow');
     if (!container) {
-        // Not the intro page, so we are done.
         return; 
     }
 
-    // 3. SETUP
-    var slides = container.querySelectorAll('.slide-img');
+    // 3. SETUP - Select the slide wrappers instead of just the images
+    var slides = container.querySelectorAll('.slide-wrapper');
     if (slides.length === 0) return;
 
     var slideInterval = 6000; 
@@ -25,17 +24,18 @@ function initHeroSlideshow() {
     var animationDuration = slideInterval + fadeDuration;
 
     var currentIndex = 0;
-    var zIndexCounter = 10; // Start higher than the CSS default
+    var zIndexCounter = 10; 
 
     // Helper: The animation logic
     function startSlide(index) {
         var slide = slides[index];
+        var img = slide.querySelector('.slide-img'); // Target just the image for zooming
         
         // Bring to top
         zIndexCounter++;
         slide.style.zIndex = zIndexCounter;
 
-        // Animate Opacity
+        // Animate Opacity on the whole wrapper (fades image & link together)
         slide.animate([
             { opacity: 0 },
             { opacity: 1 }
@@ -45,8 +45,8 @@ function initHeroSlideshow() {
             fill: 'forwards'
         });
 
-        // Animate Zoom
-        slide.animate([
+        // Animate Zoom ONLY on the image (prevents text stretching)
+        img.animate([
             { transform: 'scale(1)' },
             { transform: 'scale(' + zoomLevel + ')' }
         ], {
@@ -59,23 +59,29 @@ function initHeroSlideshow() {
     // Helper: Cleanup logic for the hidden slide
     function cleanupPreviousSlide(prevIndex) {
         setTimeout(function() {
-            // Check if the slide still exists (user might have navigated away)
             if (slides[prevIndex]) {
                 var prevSlide = slides[prevIndex];
+                var prevImg = prevSlide.querySelector('.slide-img');
+                
                 prevSlide.style.opacity = 0;
                 prevSlide.style.zIndex = 0;
                 
-                // Cancel animations to reset transform
-                var anims = prevSlide.getAnimations();
-                for (var i = 0; i < anims.length; i++) {
-                    anims[i].cancel();
+                // Cancel animations on the wrapper (fade)
+                var wrapperAnims = prevSlide.getAnimations();
+                for (var i = 0; i < wrapperAnims.length; i++) {
+                    wrapperAnims[i].cancel();
+                }
+
+                // Cancel animations on the image (zoom)
+                var imgAnims = prevImg.getAnimations();
+                for (var j = 0; j < imgAnims.length; j++) {
+                    imgAnims[j].cancel();
                 }
             }
         }, fadeDuration);
     }
 
-    // 4. START: 
-    // Reset all slides to clean slate (in case of back-button navigation artifacts)
+    // 4. START: Reset all slides to clean slate 
     slides.forEach(function(s) { 
         s.style.opacity = 0; 
         s.style.zIndex = 0;
@@ -96,11 +102,8 @@ function initHeroSlideshow() {
 }
 
 // --- Event Listeners ---
-
-// 1. Run on initial full page load
 document.addEventListener("DOMContentLoaded", initHeroSlideshow);
 
-// 2. Run on GitBook internal navigation (The "Back Button" Fix)
 if (window.gitbook) {
     gitbook.events.on('page.change', function() {
         initHeroSlideshow();

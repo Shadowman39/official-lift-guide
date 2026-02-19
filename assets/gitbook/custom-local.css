@@ -202,10 +202,10 @@ html:has(.book.color-theme-2) {
     color: #4183c4;
 }
 
-/* So mobile view fits more on the page */
+/* So mobile view fits centered on the page */
 .page-inner {
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-left: 8px;
+    padding-right: 10px;
 }
 
 /* Make separators look better */
@@ -372,31 +372,56 @@ details > summary {
   height: 100%;
 }
 
-/* Base Image Styles */
-.slide-img {
+/* Base Slide Wrapper Styles */
+.slide-wrapper {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  opacity: 0; /* DEFAULT STATE: Hidden */
+  will-change: opacity;
+}
+
+/* Image Inside Wrapper */
+.slide-wrapper .slide-img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  
-  /* DEFAULT STATE: Hidden */
-  opacity: 0; 
-  
-  will-change: transform, opacity;
+  will-change: transform;
   filter: brightness(0.6); 
   transform: scale(1);
 }
 
 /* 
    FALLBACK / INITIAL STATE:
-   Make the first image visible immediately. 
+   Make the first slide visible immediately. 
    This fixes the "Black Screen" if JS is slow or disabled.
 */
-.slide-img:first-child {
+.slide-wrapper:first-child {
   opacity: 1;
   z-index: 1;
+}
+
+/* Slide Link Styles (Desktop Default) */
+.slide-link {
+  position: absolute;
+  bottom: 0px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.65);
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 15px;
+  text-decoration: none;
+  z-index: 20; /* Keep text above the image */
+  transition: background-color 0.2s ease;
+}
+
+.slide-link:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #ffffff !important;
+  text-decoration: underline;
 }
 
 /* Mobile Adjustments */
@@ -406,6 +431,15 @@ details > summary {
   }
   .hero-title-container h1 {
     font-size: 3rem;
+  }
+
+  /* Shrink the slideshow image link for mobile screens */
+  .slide-link {
+    bottom: 0px;        /* Move closer to the edge */
+    right: 5px;         /* Move closer to the edge */
+    padding: 4px 10px;   /* Less padding around text */
+    font-size: 10px;     /* Smaller font size */
+    border-radius: 3px;
   }
 }
 
