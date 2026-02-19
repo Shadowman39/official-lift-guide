@@ -151,9 +151,6 @@ html:has(.book.color-theme-2) {
   .hero-section {
     height: 400px;
   }
-  .swiper {
-    height: 400px;
-  }
 
   .hero-title-container h1 {
   font-size: 5rem;
@@ -194,9 +191,6 @@ html:has(.book.color-theme-2) {
   .hero-section {
     height: 200px;
   }
-  .swiper {
-    height: 200px;
-  }
 
   .hero-title-container h1 {
   font-size: 3rem;
@@ -210,7 +204,7 @@ html:has(.book.color-theme-2) {
 
 /* So mobile view fits more on the page */
 .page-inner {
-    padding-left: 12px;
+    padding-left: 2px;
     padding-right: 2px;
 }
 
@@ -339,66 +333,80 @@ details > summary {
   display: none;
 }
 
-.swiper {
-  width: 100%;
-}
-
-.swiper-slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  will-change: transform;
-  transform: scale(1); 
-}
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #000;
-  filter: brightness(0.6);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-/* --- Hero Section Container --- */
+/* --- Hero Section Layout --- */
 .hero-section {
-  position: relative; /* Establishes a positioning context for the title */
+  position: relative;
   width: 100vw;
-  overflow: hidden; /* Prevents anything from spilling out, especially during zoom */
-  background: black;
+  height: 400px; /* Adjust height as needed */
+  overflow: hidden;
+  background: #000;
 }
 
-/* --- Title Styling & Centering --- */
+/* Title Centering */
 .hero-title-container {
-  position: absolute; /* Takes the title out of the normal document flow */
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 10; /* Ensures the title is on top of the slideshow */
-
-  /* Flexbox for perfect vertical and horizontal centering */
+  z-index: 20; /* Above the images */
   display: flex;
   justify-content: center;
   align-items: center;
-
-  /* Optional: Text styling */
-  color: white;
-  text-align: center;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  pointer-events: none; /* Let clicks pass through */
 }
 
 .hero-title-container h1 {
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  font-size: 5rem;
   font-weight: bold;
+  margin: 0;
 }
 
-/* --- Hiding Navigation Elements --- */
-.swiper-button-next,
-.swiper-button-prev,
-.swiper-pagination {
-  display: none !important; /* Forcefully hide the navigation and pagination */
+/* Slideshow Container */
+.hero-slideshow-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* Base Image Styles */
+.slide-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+  /* DEFAULT STATE: Hidden */
+  opacity: 0; 
+  
+  will-change: transform, opacity;
+  filter: brightness(0.6); 
+  transform: scale(1);
+}
+
+/* 
+   FALLBACK / INITIAL STATE:
+   Make the first image visible immediately. 
+   This fixes the "Black Screen" if JS is slow or disabled.
+*/
+.slide-img:first-child {
+  opacity: 1;
+  z-index: 1;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+  .hero-section {
+    height: 200px;
+  }
+  .hero-title-container h1 {
+    font-size: 3rem;
+  }
 }
 
 .intro-page ::-webkit-scrollbar {
@@ -448,7 +456,7 @@ details > summary {
 .btn-hero:hover {
     transform: translateY(-2px);
     box-shadow: 0 0 15px rgba(79, 172, 254, 0.4); /* Glow effect */
-    border-color: #ffffff;
+    border-color: rgb(79, 172, 254);
 }
 
 .btn-hero:active {
@@ -473,4 +481,24 @@ details > summary {
     
     /* Subtle shadow */
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+/* --- Z-Index Fixes --- */
+
+/* 1. Ensure the top navigation bar is always above the slideshow */
+.book-header {
+  position: relative;
+  z-index: 1000000 !important; /* Extremely high number */
+}
+
+/* 2. Ensure the dropdown menus (Font settings, Share) appear on top of the bar */
+.dropdown-menu {
+  z-index: 1000001 !important;
+}
+
+/* 3. Update the Title Container to be safe from the rising image z-indexes.
+   The JS starts counting at 10. Setting this to 500,000 ensures the images 
+   won't cover the text unless the user watches the slideshow for ~34 days. */
+.hero-title-container {
+  z-index: 500000 !important;
 }

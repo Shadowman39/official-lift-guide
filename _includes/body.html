@@ -9,38 +9,22 @@
     {% endif %}
     {% if page.permalink == "/" %}
     <section class="hero-section">
-        <!-- This div will hold your title -->
+        <!-- Title Overlay -->
         <div class="hero-title-container">
             <h1>The Official Guide to Knex Ball Machine Lifts</h1>
         </div>
 
-        <!-- Slider main container -->
-        <div class="swiper mySwiper">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">
-                    <img src="{{ '/assets/img/arm/IMG_1280.JPG' | relative_url }}" alt="Stair-Arm Lift">
-                </div>
-                <div class="swiper-slide">
-                    <img src="{{ '/assets/img/wheel/FSM83G6JOCTLFNA.jpg' | relative_url }}" alt="Small Wheel Lift">
-                </div>
-                <div class="swiper-slide">
-                    <img src="{{ '/assets/img/elevator/F2B7M2FHLJV037E.jpg' | relative_url }}" alt="Elevator Lift Cart">
-                </div>
-                <div class="swiper-slide">
-                    <img src="{{ '/assets/img/wheel/FS92DABGERP8LGT.jpg' | relative_url }}" alt="Ring Lift">
-                </div>
-                <div class="swiper-slide">
-                    <img src="{{ '/assets/img/chain/FSIGYXVGOY3B821.jpg' | relative_url }}" alt="Chainsaw Lift">
-                </div>
-            </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+        <!-- Container for JS Slideshow -->
+        <div id="js-slideshow" class="hero-slideshow-container">
+            <!-- 
+               Note: We use standard IDs or simple indexing in JS. 
+               All images start hidden via CSS. 
+            -->
+            <img src="{{ '/assets/img/arm/IMG_1280.JPG' | relative_url }}" alt="Stair-Arm Lift" class="slide-img">
+            <img src="{{ '/assets/img/wheel/FSM83G6JOCTLFNA.jpg' | relative_url }}" alt="Small Wheel Lift" class="slide-img">
+            <img src="{{ '/assets/img/elevator/F2B7M2FHLJV037E.jpg' | relative_url }}" alt="Elevator Lift Cart" class="slide-img">
+            <img src="{{ '/assets/img/wheel/FS92DABGERP8LGT.jpg' | relative_url }}" alt="Ring Lift" class="slide-img">
+            <img src="{{ '/assets/img/chain/FSIGYXVGOY3B821.jpg' | relative_url }}" alt="Chainsaw Lift" class="slide-img">
         </div>
     </section>
     {% endif %}
