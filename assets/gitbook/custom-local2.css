@@ -1,0 +1,663 @@
+/* NOTE: this is an alternate file for meta buttons with colors
+ */
+
+.book .book-body {
+    background: #EBEEF5;
+    transition: left 250ms ease;
+}
+
+/* To fix the white background flash on mobile sidebar transition */
+html, body {
+    background: var(--body-bg-color) !important; /* Match your site’s background */
+    height: 100%;
+    margin: 0;
+  }
+
+/* For the horizontal scrollbox */
+.carousel {
+    height: 74%;
+    width: 100%;
+    /* margin-left: 7.5%; */
+    margin-top: 0.5%;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+.carousel>div {
+    display: inline-block;
+    /* width: 75%; */
+    /* Setting height instead of width removes space between images */
+    height: 74%
+}
+  
+.carousel img {
+    max-width: 100%;
+}
+
+.crop {
+    object-fit: cover;
+}
+
+/* For email spam protection */
+span.blockspam {
+    display: none;
+}
+
+/* For search page */
+/* Can change the color of the search results if desired */
+#book-search-results .search-results .has-results .search-results-item {
+    color: inherit;
+}
+
+#book-search-results span.search-highlight-keyword {
+    color: black;
+}
+
+/* Light theme (default) */
+:root {
+    --search-input-text-color: black;
+    --search-input-bg-color: white;
+    --card-bg-color: #f3f6fa;         /* Default light background */
+    --card-border-color: #ccc;        /* Default light border */
+    --card-text-color: black;         /* Default text color */
+    --body-bg-color: #EBEEF5;
+    --darker-body-bg-color: #E1E4EB;
+
+    --meta-inventor-bg: #f3e8ff; --meta-inventor-text: #6b21a8;
+    --meta-featured-bg: #e0f2fe; --meta-featured-text: #0369a1;
+    --meta-instructions-bg: #ffedd5; --meta-instructions-text: #c2410c;
+    --meta-video-bg: #fee2e2; --meta-video-text: #b91c1c;
+}
+
+/* Sepia theme */
+.book.color-theme-1 {
+    --search-input-text-color: black;
+    --search-input-bg-color: #f1eddd;
+    --card-bg-color: #f3edd7;         /* Sepia background */
+    --card-border-color: #8b5a2b;     /* Sepia-toned border */
+    --card-text-color: #4a2c0f;       /* Darker sepia text */
+    --darker-body-bg-color: rgb(17, 17, 17);
+
+    --meta-inventor-bg: #ede4f5; --meta-inventor-text: #582a82;
+    --meta-featured-bg: #e2ecf1; --meta-featured-text: #1e4e6d;
+    --meta-instructions-bg: #f5e8d7; --meta-instructions-text: #8a4b00;
+    --meta-video-bg: #f5e2e2; --meta-video-text: #942a2a;
+}
+/* :has section needed to go up a level into html/body for the vars */
+html:has(.book.color-theme-1) {
+    --body-bg-color: #f3eacb;
+}
+
+/* Dark theme */
+.book.color-theme-2 {
+    --search-input-text-color: white;
+    --search-input-bg-color: #2b2e3d;
+    --card-bg-color: #2d3143;         /* Dark background */
+    --card-border-color: #4c535d;        /* Darker border */
+    --card-text-color: #bdcadb;         /* White text for dark theme */
+    --darker-body-bg-color: rgb(45, 49, 67);
+
+    --meta-inventor-bg: #2e1065; --meta-inventor-text: #d8b4fe;
+    --meta-featured-bg: #0c4a6e; --meta-featured-text: #7dd3fc;
+    --meta-instructions-bg: #431407; --meta-instructions-text: #fdba74;
+    --meta-video-bg: #450a0a; --meta-video-text: #fca5a5;
+}
+html:has(.book.color-theme-2) {
+    --body-bg-color: #1c1f2b;
+}
+
+#book-search-input-inside input {
+    color: var(--search-input-text-color);
+}
+
+#book-search-input-inside {
+    background-color: var(--search-input-bg-color);
+}
+
+/* Updated card styling */
+.card {
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid var(--card-border-color);
+    border-radius: 10px;
+    background-color: var(--card-bg-color);
+    color: var(--card-text-color);
+}
+
+.card h2 {
+    margin-top: 20px; /* Removes the top margin */
+  }
+
+
+/* For desktop displays only */
+@media (min-width: 769px) {
+  .carousel {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px; /* Add some spacing between grid items */
+    overflow-y: scroll; /* Enable vertical scroll */
+    white-space: normal; /* Allow text wrapping if needed */
+    height: auto; /* Adjust height to content */
+    max-height: 410px; /* Limit height to show only the first row and some of the next */
+    padding-right: 5px; /* Add padding to the right to create space for scrollbar on the left */
+  }
+
+  .carousel>div {
+    display: block; /* Make divs block elements within the grid */
+    height: auto; /* Adjust height to content */
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  .card h2 {
+    margin-top: 2px; /* Reduces the top margin */
+  }
+
+  hr {
+    margin-left: -25px !important;     /* Adjust spacing on the left */
+    margin-right: -25px !important;    /* Adjust spacing on the right */
+  }
+
+  .hero-section {
+    height: 400px;
+  }
+
+  .hero-title-container h1 {
+  font-size: 5rem;
+  }
+}
+
+/* For mobile displays only */
+@media (max-width: 768px) {
+  hr {
+      margin-left: -5px !important;
+      margin-right: -5px !important;
+  }
+
+  /* Lift cards show smaller on mobile */
+  .lift-card {
+      width: 150px !important;
+  }
+
+  .lift-image-wrapper {
+      padding-top: 50% !important; /* Adjust aspect ratio for mobile */
+  }
+
+  #desktop-lift-cards {
+    display: none;
+  }
+  #mobile-lift-cards {
+    display: block; /* Or flex, grid, etc. */
+  }
+
+  /* Adjustments for mobile cards if needed */
+  #mobile-lift-cards .lift-card {
+      width: 150px !important; /* Keep mobile card size consistent */
+  }
+  #mobile-lift-cards .lift-image-wrapper {
+      padding-top: 50% !important; /* Keep mobile aspect ratio consistent */
+  }
+
+  .hero-section {
+    height: 200px;
+  }
+
+  .hero-title-container h1 {
+  font-size: 3rem;
+  }
+}
+
+/* Fix for the sepia theme links */
+.book.color-theme-1 .book-body .page-wrapper .page-inner section.normal a {
+    color: #4183c4;
+}
+
+/* So mobile view fits centered on the page */
+.page-inner {
+    padding-left: 8px;
+    padding-right: 10px;
+}
+
+/* Make separators look better */
+hr {
+    border: none !important;           /* Remove default styling */
+    border-top: 1px solid var(--card-border-color) !important; /* Thin 1px border with a light gray color */
+    background-color: transparent !important;
+}
+
+/* Lift Navigation Cards */
+.lift-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px; /* Spacing between cards */
+    justify-content: center; /* Center cards horizontally */
+    margin: 10px 0; /* Add some vertical space around the container */
+  }
+  
+.lift-card {
+    display: block; /* Make the link a block element */
+    padding: 2px; /* Inner spacing - kept from original plan */
+    border: 1px solid var(--card-border-color); /* From your example */
+    border-radius: 10px; /* From your example */
+    background-color: var(--card-bg-color) !important; /* From your example */
+    color: var(--card-text-color); /* From your example */
+    text-align: center;
+    text-decoration: none; /* Remove underline from link */
+    width: 200px; /* Fixed width for consistency */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Subtle shadow */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth hover effect */
+}
+
+.lift-card:hover {
+    transform: translateY(-3px); /* Lift effect on hover */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1); /* Enhance shadow on hover */
+}
+
+.lift-card-text {
+    display: block; /* Ensure text is on its own line */
+    font-weight: 600; /* Make text slightly bolder */
+    font-size: 1em; /* Standard text size */
+    /* Inherits color from .lift-card */
+}
+
+/* Add a wrapper to enforce aspect ratio */
+.lift-image-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 75%; /* Sets the aspect ratio */
+    overflow: hidden;
+}
+
+/* Style the image inside the wrapper */
+.lift-image-wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Crop the image to fill the wrapper */
+    object-position: center; /* Center the image during cropping */
+    margin: 0; /* Remove the margin from the image itself */
+}
+
+/* Adjust the .lift-card img rule to remove the old height */
+.lift-card img {
+    max-width: 100%; /* Ensure image doesn't overflow */
+    display: block; /* Center image */
+    margin: 0 auto 10px auto; /* Space below the wrapper */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Section for the expandable lift cards */
+details > summary {
+    cursor: pointer;
+    list-style: none; /* Remove default arrow */
+    text-align: center; /* Center the text */
+    padding: 10px; /* Add some padding */
+    background-color: var(--card-bg-color); /* Light background color */
+    border: 1px solid var(--card-border-color); /* Add a border */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+  }
+  
+  details > summary:hover {
+    background-color: var(--body-bg-color); /* Darker background on hover */
+  }
+  
+  details[open] > summary {
+    margin-bottom: 10px; /* Add space below summary when expanded */
+  }
+  
+  details > summary::marker {
+    display: none; /* Hide the default marker */
+  }
+  
+  details > summary::before {
+    content: ''; /* Remove the text content */
+    display: inline-block;
+    margin-right: 10px; /* Adjust spacing as needed */
+    border: solid currentColor; /* Set the color of the caret */
+    border-width: 0 3px 3px 0; /* Creates the caret shape (top, right, bottom, left) */
+    padding: 3px;
+    vertical-align: middle;
+    transform: rotate(-45deg); /* Point the caret to the right */
+    transition: transform 0.3s ease; /* Smooth arrow rotation */
+  }
+
+  details[open] > summary::before {
+    transform: rotate(45deg); /* Point the caret down when expanded */
+  }
+  
+  details > * {
+    transition: max-height 0.5s ease-in-out; /* Smooth expand/collapse transition */
+    overflow: hidden; /* Ensure content is hidden during transition */
+  }
+
+/* --- Responsive Lift Card Display --- */
+
+/* Default (Desktop): Show desktop cards, hide mobile cards */
+#desktop-lift-cards {
+  display: block; /* Or flex, grid, etc., depending on its internal layout */
+}
+#mobile-lift-cards {
+  display: none;
+}
+
+/* --- Hero Section Layout --- */
+.hero-section {
+  position: relative;
+  width: 100vw;
+  height: 400px; /* Adjust height as needed */
+  overflow: hidden;
+  background: #000;
+}
+
+/* Title Centering */
+.hero-title-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 20; /* Above the images */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none; /* Let clicks pass through */
+}
+
+.hero-title-container h1 {
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  font-size: 5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Slideshow Container */
+.hero-slideshow-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* Base Slide Wrapper Styles */
+.slide-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0; /* DEFAULT STATE: Hidden */
+  will-change: opacity;
+}
+
+/* Image Inside Wrapper */
+.slide-wrapper .slide-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  will-change: transform;
+  filter: brightness(0.6); 
+  transform: scale(1);
+}
+
+/* 
+   FALLBACK / INITIAL STATE:
+   Make the first slide visible immediately. 
+   This fixes the "Black Screen" if JS is slow or disabled.
+*/
+.slide-wrapper:first-child {
+  opacity: 1;
+  z-index: 1;
+}
+
+/* Slide Link Styles (Desktop Default) */
+.slide-link {
+  position: absolute;
+  bottom: 0px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.65);
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 15px;
+  text-decoration: none;
+  z-index: 20; /* Keep text above the image */
+  transition: background-color 0.2s ease;
+}
+
+.slide-link:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #ffffff !important;
+  text-decoration: underline;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+  .hero-section {
+    height: 200px;
+  }
+  .hero-title-container h1 {
+    font-size: 3rem;
+  }
+
+  /* Shrink the slideshow image link for mobile screens */
+  .slide-link {
+    bottom: 0px;        /* Move closer to the edge */
+    right: 5px;         /* Move closer to the edge */
+    padding: 4px 10px;   /* Less padding around text */
+    font-size: 10px;     /* Smaller font size */
+    border-radius: 3px;
+  }
+}
+
+.intro-page ::-webkit-scrollbar {
+    width: 0px;
+}
+
+/* Container to center the buttons */
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1000px; /* Keep buttons from spreading too wide on huge screens */
+    margin: 0 auto;    /* Center the container */
+    margin-bottom: 28px; 
+    padding-top: 10px;
+}
+
+/* The Buttons */
+.btn-hero {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none !important;
+    border-radius: 50px;
+    transition: all 0.2s ease-in-out;
+    
+    /* Button Colors */
+    background-color: var(--card-bg-color) !important;
+    color: #ffffff;
+    backdrop-filter: blur(5px);
+    border: 1px solid var(--card-border-color);
+    
+    /* Modern soft shadow */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.08);
+}
+
+.btn-hero i {
+    margin-right: 10px;
+    color: #4facfe; /* Light blue accent for icons */
+}
+
+/* Hover Effects */
+.btn-hero:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 15px rgba(79, 172, 254, 0.4); /* Glow effect */
+    border-color: rgb(79, 172, 254);
+}
+
+.btn-hero:active {
+    transform: translateY(0);
+}
+
+.intro-box {
+    /* Use the card background variable for automatic Dark Mode support */
+    background-color: var(--card-bg-color);
+    color: var(--card-text-color);
+    border: 1px solid var(--card-border-color);
+    
+    /* Modern box styling */
+    padding: 25px 30px;
+    border-radius: 12px;
+    font-size: 1.1em; /* Slightly larger text for the intro */
+    line-height: 1.6;
+    text-align: left; /* or center, if you prefer */
+    
+    /* Left accent border to make it look like a featured element */
+    border-left: 5px solid #4183c4; 
+    
+    /* Subtle shadow */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+/* --- Z-Index Fixes --- */
+
+/* 1. Ensure the top navigation bar is always above the slideshow */
+.book-header {
+  position: relative;
+  z-index: 1000000 !important; /* Extremely high number */
+}
+
+/* 2. Ensure the dropdown menus (Font settings, Share) appear on top of the bar */
+.dropdown-menu {
+  z-index: 1000001 !important;
+}
+
+/* 3. Update the Title Container to be safe from the rising image z-indexes.
+   The JS starts counting at 10. Setting this to 500,000 ensures the images 
+   won't cover the text unless the user watches the slideshow for ~34 days. */
+.hero-title-container {
+  z-index: 500000 !important;
+}
+
+/* --- Entry Metadata Styling (stats for each lift) --- */
+.entry-metadata {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 25px;
+    font-size: 1.4rem; 
+    line-height: 1.5;
+}
+
+.meta-item {
+    display: inline-flex;
+    align-items: center;
+    /* Uses the body background to look "inset" against the card background */
+    background-color: var(--body-bg-color) !important; 
+    filter: brightness(1.05);
+    padding: 4px 8px;
+    border-radius: 18px;
+    color: var(--card-text-color);
+    border: 1px solid var(--card-border-color);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: all 0.2s ease;
+}
+
+/* Ensure links inside the badges look correct across themes */
+.meta-value a {
+    color: #4183c4; /* Standard blue that works on light/sepia/dark */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.meta-value a:hover {
+    text-decoration: underline;
+}
+
+.meta-icon {
+    margin-right: 6px;
+    /* Icons inherit the theme text color but at 80% opacity */
+    color: var(--card-text-color);
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    width: 20px;
+    justify-content: center;
+    font-size: 1.1em;
+}
+
+.meta-label {
+    font-weight: 700;
+    margin-right: 5px;
+    color: var(--card-text-color);
+}
+
+/* Only brighten the badge when the actual LINK inside it is being hovered */
+.meta-item:has(a:hover) {
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.meta-inventor {
+    background-color: var(--meta-inventor-bg) !important;
+    color: var(--meta-inventor-text) !important;
+    border-color: var(--meta-inventor-text);
+}
+
+.meta-featured {
+    background-color: var(--meta-featured-bg) !important;
+    color: var(--meta-featured-text) !important;
+    border-color: var(--meta-featured-text);
+}
+
+/* --- Action Buttons (Instructions / Video) --- */
+.action-link {
+    text-decoration: none !important;
+    transition: all 0.2s ease;
+    font-weight: 600;
+    /* Buttons should have a distinct background even in dark mode */
+    background-color: var(--card-bg-color); 
+}
+
+.instruction-link, .meta-instructions {
+    background-color: var(--meta-instructions-bg) !important;
+    color: var(--meta-instructions-text) !important;
+    border: 1px solid var(--meta-instructions-text) !important;
+}
+
+.video-link, .meta-video {
+    background-color: var(--meta-video-bg) !important;
+    color: var(--meta-video-text) !important;
+    border: 1px solid var(--meta-video-text) !important;
+}
+
+/* Hover States */
+.action-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    filter: brightness(1.1); /* Makes it slightly glow/brighten on hover */
+}
+
+/* Dark theme specific tweak: make buttons slightly darker so they aren't neon */
+.book.color-theme-2 .action-link {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.meta-item .meta-icon, 
+.meta-item .meta-label,
+.meta-item .meta-value,
+.meta-item .meta-value a {
+    color: inherit !important;
+    opacity: 1;
+}

@@ -8,25 +8,38 @@
 </div>
 <br style="clear:both" />
 
-{% capture blockquotes %}
-> - Inventor: {{entry.author}}
+<!-- Replacing the blockquotes section -->
+<div class="entry-metadata">
+    {% if entry.author %}
+    <div class="meta-item meta-inventor">
+        <span class="meta-icon"><i class="fa fa-user fa-lg"></i></span>
+        <span class="meta-label">Inventor:</span>
+        <span class="meta-value">{{ entry.author | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+    </div>
+    {% endif %}
 
-{%- if entry.featured -%}
-<br>
-> - Featured in {{entry.featured}}
-{% endif %}
+    {% if entry.featured %}
+    <div class="meta-item meta-featured">
+        <span class="meta-icon"><i class="fa fa-star fa-lg"></i></span>
+        <span class="meta-label">Featured:</span>
+        <span class="meta-value">{{ entry.featured | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+    </div>
+    {% endif %}
 
-{%- if entry.instructions -%}
-<br>
-> - [Instructions]({{entry.instructions}})
-{% endif %}
+    {% if entry.instructions %}
+    <a href="{{entry.instructions}}" class="meta-item action-link instruction-link">
+        <span class="meta-icon"><i class="fa fa-book fa-lg"></i></span>
+        <span class="meta-label">Instructions</span>
+    </a>
+    {% endif %}
 
-{%- if entry.video -%}
-<br>
-> - [Video]({{entry.video}})
-{% endif %}
-{% endcapture %}
-{{ blockquotes | markdownify }}
+    {% if entry.video %}
+    <a href="{{entry.video}}" class="meta-item action-link video-link">
+        <span class="meta-icon"><i class="fa fa-play-circle fa-lg"></i></span>
+        <span class="meta-label">Watch Video</span>
+    </a>
+    {% endif %}
+</div>
 
 <!-- Handling the description, with the tips/warnings -->
 {% assign desc = entry.description | split: "-warning-" %}
