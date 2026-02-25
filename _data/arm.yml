@@ -160,3 +160,18 @@ lifts:
         - The shifting arm lift, a collaboration between Tornado96 and Shadowman39
       - - FLDLAU7HLSHEJ6Q.jpg
         - Shifting arm lifts can go pretty high, like this one made by Sorunome for Apocalypse
+
+  - name: Robot Arm Lift
+    author: "[Thibault Art](https://www.instructables.com/member/Thibault%20Art/)"
+    featured: 
+    category: quarter arm lift
+    video: https://youtu.be/2CgSedctTpo?t=117
+    instructions: 
+    description: This is a more complex quarter arm lift that resembles a robot arm since it not only rotates the arm up but also rotates the base of the arm, with each axis being controlled with mechanical automation. There is also control needed of the gate when a ball is ready to be picked up. This version uses CyberKnex motors and switches. The arm can be made to do any movement desired, but it isn't programmable like a real robot; it will do the same movement every time. This one has no instructions due to the complex mechanisms.
+    images:
+      - - Screenshot from 2026-02-25 11-56-53.png
+        - The arm when a ball is about to exit
+      - - Screenshot from 2026-02-25 11-57-28.png
+        - About to lift up the next ball
+      - - Screenshot from 2026-02-25 11-58-08.png
+        - The complex CyberKnex automation

@@ -522,19 +522,19 @@ details > summary {
 /* 1. Ensure the top navigation bar is always above the slideshow */
 .book-header {
   position: relative;
-  z-index: 1000000 !important; /* Extremely high number */
+  z-index: 9997 !important; /* Extremely high number */
 }
 
 /* 2. Ensure the dropdown menus (Font settings, Share) appear on top of the bar */
 .dropdown-menu {
-  z-index: 1000001 !important;
+  z-index: 9998 !important;
 }
 
 /* 3. Update the Title Container to be safe from the rising image z-indexes.
    The JS starts counting at 10. Setting this to 500,000 ensures the images 
    won't cover the text unless the user watches the slideshow for ~34 days. */
 .hero-title-container {
-  z-index: 500000 !important;
+  z-index: 8888 !important;
 }
 
 /* --- Entry Metadata Styling (stats for each lift) --- */

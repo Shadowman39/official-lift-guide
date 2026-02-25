@@ -207,3 +207,37 @@ lifts:
         - The lift right after it releases a ball
       - - Screenshot 2024-03-29 173320.png
         - Loading a ball at the bottom
+
+  - name: Dual Axis Arm Lift
+    author: "[Thibault Art](https://www.instructables.com/member/Thibault%20Art/)"
+    featured: 
+    category: rotating arm lift
+    video: https://youtu.be/2CgSedctTpo?t=33
+    instructions: https://www.instructables.com/Knex-Ball-Machine-Lift-Triple-Moving-Arm-Lift/
+    description: Multiple wheels/arms can be placed on each other, creating a lift that rotates on two axes, with the axes perpendicular to each other. This allows for more complex paths and a more interesting visual, but can require more parts due to gearboxes. The original version by Thibault Art, for example, requires a green gear.
+      <br><br>
+      The base axis can be placed in a different orientaion like [another version](https://www.instructables.com/Dual-Axis-Arm-Lift/) by [KnexTech](https://www.instructables.com/member/KnexTech/). This one uses less pieces and lifts the balls higher than in the original. Both versions still use a gate at the start.
+    images:
+      - - F46DUXDIXUSGD95.jpg
+        - The original verion by Thibault Art, which has the base axis horizontal
+      - - FA9YBFYIXUSGEEI.jpg
+        - 
+      - - FII2OLXJXSTH39F.png
+        - KnexTech's version, which has the base axis vertical and uses less pieces
+      - - FX7ZXGPJXSTH3JS.png
+        -
+
+  - name: Endless Arm Lift
+    author: "[Thibault Art](https://www.instructables.com/member/Thibault%20Art/)"
+    featured: "[Eclipse](https://www.instructables.com/Knex-Ball-Machine-ECLPISE/)"
+    category: internal wheel lift
+    video: https://youtu.be/2CgSedctTpo?t=9
+    instructions: https://www.instructables.com/Knex-Ball-Machine-Lift-Endless-Arm-Lift/
+    description: This is similar to a normal internal wheel lift, except it's in arm form which conserves pieces and the arms are stacked and connected with a simple gear train, which makes it easy to build and very reliable. The balls are prevented from falling out with small guides on the arms, and a sloped track in each arm lets the balls exit without tilting the whole arm.
+    images:
+      - - FRPXCU1J048EQ1A.jpg
+        - 
+      - - F3EWQJ1J048EQ3A.jpg
+        - 
+      - - FPL511NJ048EQ3K.jpg
+        -

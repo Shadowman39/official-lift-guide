@@ -69,3 +69,33 @@ lifts:
         - 
       - - FAT2LN0I2AQTVDA.jpg
         - 
+
+  - name: Alternating Jigsaw Lift
+    author: "[Thibault Art](https://www.instructables.com/member/Thibault%20Art/)"
+    featured: 
+    category: main
+    video: https://youtu.be/2CgSedctTpo?t=87
+    instructions: https://www.instructables.com/Knex-Ball-Machine-Lift-Dubble-Stair-Lift/
+    description:  The balls in this lift alternate from one jigsaw to the other, with both jigsaws placed opposite each other on crankshafts. They rotate in reverse compared to a normal jigsaw, which lets the balls switch to the other side only when they are lifted above the middle wall.
+    images:
+      - - FCP3PQ0IY0FXNB6.jpg
+        - 
+      - - F45B1GAIY0FXNN3.jpg
+        - 
+      - - FT7TQZZIY0FXNF4.jpg
+        - 
+
+  - name: Double Ladder Lift
+    author: "[Thibault Art](https://www.instructables.com/member/Thibault%20Art/)"
+    featured: "[Turbion](https://www.youtube.com/watch?v=Cnew_BAvNo4)"
+    category: ladder lift
+    video: https://youtu.be/Pbak7IOwSGM?t=33
+    instructions: 
+    description:  Like jigsaws, ladder lifts can also be made with two carriers instead of one. Rather than balls waiting on a fixed ladder for the rotating one to come around again, they switch beteen two that are in opposite rotation angles. This is a bit more complicated than a normal ladder lift, since the two carriers have to be hooked up on double cranks, but it's more interesting and removes the need for a counterweight.
+    images:
+      - - Screenshot from 2026-02-25 12-10-38.png
+        - 
+      - - Screenshot from 2026-02-25 12-07-12.png
+        - 
+      - - Screenshot from 2026-02-25 12-07-35.png
+        - 
